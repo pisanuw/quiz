@@ -1,7 +1,248 @@
 {
   "chapter": 8,
-  "title": "Chapter 8",
-  "blurb": "",
-  "publish": false,
-  "questions": []
+  "title": "Committing to Your Goals",
+  "blurb": "This quiz covers why pursuing meaningful goals boosts happiness, which types of goals are most beneficial, and practical strategies for committed goal pursuit.",
+  "publish": true,
+  "questions": [
+    {
+      "prompt": "According to the chapter, what does research consistently show about people who actively strive toward personally meaningful goals?",
+      "choices": [
+        "They tend to be significantly happier than people without strong aspirations.",
+        "They experience more stress and burnout than people who avoid setting goals.",
+        "They are happier only after they successfully achieve those goals.",
+        "They report higher satisfaction mainly in their professional lives."
+      ],
+      "answer": 0,
+      "explanation": "The chapter opens by noting that people who strive toward something personally significant are far happier than those who lack strong dreams or aspirations, regardless of whether the goal is fully achieved.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "Which of the following best captures what intrinsic goals are, as described in this chapter?",
+      "choices": [
+        "Goals chosen to earn external rewards such as money or social recognition.",
+        "Goals pursued because they are inherently satisfying, meaningful, and growth-promoting.",
+        "Goals that have been validated and recommended by a professional counselor.",
+        "Goals focused on avoiding negative outcomes such as failure or embarrassment."
+      ],
+      "answer": 1,
+      "explanation": "Intrinsic goals are those pursued because they are inherently satisfying and meaningful, allowing personal growth and contribution to one's community, rather than being driven by external pressure or reward.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "The chapter identifies six benefits of committed goal pursuit. Which of the following correctly names one of those benefits?",
+      "choices": [
+        "Guaranteed attainment of every goal a person sets.",
+        "Freedom from the need to interact with other people.",
+        "Elimination of all stress and daily responsibilities.",
+        "Goals give people direction and something meaningful to work toward, along with a greater sense of agency over their own lives."
+      ],
+      "answer": 3,
+      "explanation": "Among the benefits the chapter lists, the first is that striving toward goals provides direction and meaningful purpose, and it strengthens the feeling that one is steering one's own life rather than drifting without aim.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "What does the chapter say about the relationship between working toward a goal and actually achieving it?",
+      "choices": [
+        "Achievement is significantly more important to happiness than the pursuit process.",
+        "Only goals that are fully achieved contribute to lasting happiness.",
+        "Striving toward something meaningful contributes to happiness whether or not a person ultimately reaches the finish line.",
+        "Working toward goals matters only when the goals are short-term and concrete."
+      ],
+      "answer": 2,
+      "explanation": "The chapter makes clear that the pursuit itself, not just the outcome, drives happiness. People often feel letdown after reaching a long-sought goal, suggesting that the ongoing effort carries at least as much value as crossing the finish line.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "According to the chapter, what is the key risk of pursuing circumstance-based goals (such as buying a nicer home or moving to a better city) rather than activity-based goals?",
+      "choices": [
+        "Circumstance-based goals tend to cost more money and create financial stress.",
+        "Positive gains from circumstance changes fade quickly due to hedonic adaptation.",
+        "People who change their circumstances often lose close friendships.",
+        "Circumstance-based goals require more planning than most people can manage."
+      ],
+      "answer": 1,
+      "explanation": "The chapter explains that circumstantial improvements are subject to hedonic adaptation, meaning people quickly adjust to the new situation and need ever-greater improvements to maintain the same happiness boost, unlike the sustained benefits of activity-based goals.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "The chapter distinguishes approach goals from avoidance goals. Which of the following is an example of an avoidance goal?",
+      "choices": [
+        "Training to qualify for a regional athletic competition.",
+        "Enrolling in a language class to become conversationally fluent.",
+        "Trying not to feel socially awkward at gatherings.",
+        "Setting a goal to read two books per month."
+      ],
+      "answer": 2,
+      "explanation": "An avoidance goal is framed around preventing an unwanted outcome. Trying not to feel socially awkward is focused on avoiding a negative state rather than approaching a positive one.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Research cited in the chapter compared activity changes with circumstantial changes over time. What did the results show at the twelve-week mark?",
+      "choices": [
+        "Both types of changes continued to boost happiness equally.",
+        "Circumstantial changes produced stronger happiness gains than activity changes.",
+        "Neither type of change produced lasting effects on happiness.",
+        "Only activity changes continued to improve participants' happiness."
+      ],
+      "answer": 3,
+      "explanation": "In Sheldon and Lyubomirsky's field study, both types of changes boosted happiness at six weeks, but only activity changes continued to elevate happiness at twelve weeks, because participants adapted to circumstantial changes but not to activity changes.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter explains that public commitment to a goal is especially powerful. What is one key reason researchers give for this effect?",
+      "choices": [
+        "People want to appear consistent to themselves and others and avoid embarrassment.",
+        "Public settings provide more financial resources to support goal pursuit.",
+        "Observers help by regularly reminding a person of their stated goal.",
+        "Public commitments automatically convert avoidance goals into approach goals."
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that making a commitment publicly raises the likelihood of follow-through partly because people desire to appear consistent and want to avoid the awkwardness of breaking a stated intention.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The classic nursery school experiment described in the chapter found that offering children a reward for drawing had what effect on their later behavior?",
+      "choices": [
+        "It increased the children's long-term interest in drawing.",
+        "It had no measurable effect on the children's later behavior.",
+        "It reduced the children's free-play drawing after the reward was no longer offered.",
+        "It caused the children to seek similar rewards for other classroom activities."
+      ],
+      "answer": 2,
+      "explanation": "Children who had been promised a reward for drawing later played with markers less during free time than children who received no reward, demonstrating that external rewards can undermine intrinsic motivation by turning play into a duty.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter describes authentic goals as those studied by Ken Sheldon and Andrew Elliot. What makes a goal 'authentic' in their framework?",
+      "choices": [
+        "The goal was recommended by a respected mentor or authority figure.",
+        "The goal is measurable and has a specific deadline attached to it.",
+        "The goal is shared by a large number of people in the same culture.",
+        "The goal genuinely reflects who the person is: what they care about most and what they find intrinsically worthwhile."
+      ],
+      "answer": 3,
+      "explanation": "Sheldon and Elliot define self-determined goals as ones the person truly owns: they spring from stable personal values and genuine enthusiasm rather than guilt, social pressure, or someone else's expectations.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter warns against pursuing conflicting goals simultaneously. What is the recommended adaptive solution when two goals are in conflict?",
+      "choices": [
+        "Modify one or both goals to make them more compatible, or give up one if necessary.",
+        "Pursue both goals with equal energy to avoid favoritism between them.",
+        "Abandon both goals immediately and start fresh with entirely new aspirations.",
+        "Add a third mediating goal that balances the demands of the first two."
+      ],
+      "answer": 0,
+      "explanation": "The chapter advises modifying one or both conflicting goals to make them more harmonious, and if that is not possible, relinquishing one goal is preferable to sacrificing both through the stress of perpetual conflict.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Which of the following correctly describes a self-fulfilling prophecy in the context of goal pursuit, as explained in the chapter?",
+      "choices": [
+        "A belief that succeeding at one goal automatically leads to success at unrelated goals.",
+        "A confident belief in one's ability to achieve a goal that increases the likelihood of actually achieving it.",
+        "A prediction that negative outcomes will occur, which causes a person to give up early.",
+        "The observation that people who write down goals are always more successful than those who do not."
+      ],
+      "answer": 1,
+      "explanation": "The chapter defines a self-fulfilling prophecy as a belief that confirms itself by influencing behavior. When people are optimistic and confident about reaching a goal, they are more likely to persevere and ultimately succeed.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "According to the chapter, what role do 'implementation intentions' play in goal pursuit?",
+      "choices": [
+        "They help a person decide which of several competing goals to prioritize first.",
+        "They are formal contracts signed with a mentor to increase accountability.",
+        "They specify where, when, and how specific steps toward a goal will be carried out.",
+        "They replace higher-level goals with more realistic short-term targets."
+      ],
+      "answer": 2,
+      "explanation": "Implementation intentions are concrete plans that spell out where, when, and how a person will act on their goal, and research shows that people with such plans are more likely to accomplish their larger, more abstract goals.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter notes that goal pursuit is especially valuable for older adults who are retired. Which benefit is highlighted as particularly important for this group?",
+      "choices": [
+        "The financial rewards that come from monetizing new hobbies.",
+        "The opportunity to surpass younger competitors in athletic or academic pursuits.",
+        "The structure, sense of purpose, and social interaction that goal pursuit provides.",
+        "The ability to replace lost physical abilities with purely intellectual activities."
+      ],
+      "answer": 2,
+      "explanation": "The chapter specifically points out that structure, meaning, and social interaction supplied by goal pursuit are particularly critical for older retired adults, who may no longer get these benefits from professional life.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "In Ken Sheldon's study on goal authenticity, what happened to participants who successfully transformed their goals into authentic ones?",
+      "choices": [
+        "They completed their goals faster but reported feeling no happier than before.",
+        "They abandoned their original goals and replaced them with entirely new priorities.",
+        "They reported higher satisfaction but showed no change in actual goal completion rates.",
+        "They became more likely to attain their goals and felt happier and more authentic over time."
+      ],
+      "answer": 3,
+      "explanation": "Sheldon's research found that participants who made their goals feel more genuinely their own were not only more successful at achieving those goals but also grew happier and felt more authentic as time passed.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "A person frames her goal as 'not gaining weight' rather than 'becoming a healthier eater.' According to the chapter, why is this framing likely to hurt her chances of success?",
+      "choices": [
+        "Avoidance goals require tracking too many possible failure points, and a negative focus heightens sensitivity to setbacks, making the goal harder to sustain.",
+        "The body responds differently to weight-loss goals depending on whether they are framed positively or negatively.",
+        "Avoidance goals are only appropriate for short-term targets, not ongoing lifestyle changes.",
+        "Framing a goal negatively signals to others that the person lacks genuine commitment."
+      ],
+      "answer": 0,
+      "explanation": "The chapter explains that avoidance goals demand attention to many possible failure paths rather than a single positive pathway, and they encourage a negatively biased perspective and heightened sensitivity to threats, both of which can become self-fulfilling and undermine success.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter suggests that pursuing extrinsic goals is not necessarily always harmful. Which scenario best illustrates a legitimate role for extrinsic motivation?",
+      "choices": [
+        "A person chases a high salary primarily because wealth signals success to her social circle.",
+        "A person seeks public recognition for volunteer work mainly to feel superior to peers.",
+        "A person works hard for financial stability so that she can eventually devote time to her true passion of writing.",
+        "A person pursues a prestigious credential entirely because her employer requires it, with no further purpose in mind."
+      ],
+      "answer": 2,
+      "explanation": "The chapter illustrates this nuance with the example of an entrepreneur who earns a high salary specifically so he can later pursue deeply meaningful activities like writing and spending time with his children, showing that extrinsic goals can serve as legitimate means to intrinsic ends.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter discusses 'primary control' versus 'secondary control' when an external obstacle disrupts an important goal. What does effective secondary control look like in practice?",
+      "choices": [
+        "Taking decisive action to remove the obstacle so the original goal can proceed unchanged.",
+        "Adjusting how one perceives or reframes the situation and adapting subgoals while maintaining the higher-level aim.",
+        "Temporarily suspending all goal pursuit until conditions are favorable again.",
+        "Seeking validation from close friends before deciding whether to modify any goals."
+      ],
+      "answer": 1,
+      "explanation": "Secondary control involves changing how one views a situation rather than trying to change the situation itself. The chapter illustrates this with the example of a grandparent who shifts subgoals to webcam visits and train travel while keeping the higher aim of staying connected.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter argues that pleasure alone is not enough to sustain long-term commitment to a goal. Which explanation best captures why meaning and value are also necessary?",
+      "choices": [
+        "Goals that are merely pleasurable tend to conflict with other goals, creating stress that cancels any happiness benefit.",
+        "Research shows that pleasurable goals attract social disapproval, which reduces a person's commitment over time.",
+        "Pleasure is a purely biological response that cannot be sustained through voluntary effort, whereas meaning is a cognitive construct.",
+        "Pleasure fades quickly due to hedonic adaptation, while a sense of meaning and purpose provides a more durable foundation for persisting through difficulty."
+      ],
+      "answer": 3,
+      "explanation": "The chapter warns that pleasure alone cannot sustain most people's commitment over extended periods. The deeper motivation of meaning and value keeps people invested when novelty or enjoyment temporarily fades, making it the more durable source of commitment.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "Research described in the chapter shows that younger and older adults differ in which goals they prioritize. A young adult and an older adult both face the same choice: meet a celebrated author or spend time with a beloved aunt. What does research predict about the older adult's choice, and why?",
+      "choices": [
+        "The older adult would choose the author, because accumulated wisdom makes intellectual engagement more rewarding with age.",
+        "The older adult would choose the aunt, because older adults tend to prioritize emotionally meaningful experiences over information-seeking.",
+        "The older adult would choose the author, because information-seeking goals become more urgent when time feels limited.",
+        "The older adult would choose the aunt only if the relationship had recently been strained, not as a general pattern."
+      ],
+      "answer": 1,
+      "explanation": "The chapter cites research showing that as people age they shift away from goals focused on acquiring new information and toward emotionally meaningful goals that maximize positive feelings and relationships, so an older adult would typically choose the aunt over the author.",
+      "difficulty": "hard"
+    }
+  ]
 }

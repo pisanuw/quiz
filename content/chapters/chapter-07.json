@@ -1,7 +1,243 @@
 {
   "chapter": 7,
-  "title": "Chapter 7",
-  "blurb": "",
-  "publish": false,
-  "questions": []
+  "title": "Living in the Present",
+  "blurb": "This quiz covers the two core strategies for living in the present, flow and savoring, including how to achieve them, their documented benefits, and the science behind making the most of everyday moments.",
+  "publish": true,
+  "questions": [
+    {
+      "prompt": "What term did Mihaly Csikszentmihalyi coin to describe a state of intense absorption in which a person is fully immersed in an activity and loses track of time?",
+      "choices": ["Mindfulness", "Savoring", "Superflow", "Flow"],
+      "answer": 3,
+      "explanation": "Csikszentmihalyi introduced the concept of flow to describe the state of complete absorption in a present activity, during which a person is unselfconscious and fully concentrated.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "According to the chapter, what essential condition must be met for a person to enter a state of flow?",
+      "choices": [
+        "There must be a balance between the challenge of the task and the person's level of skill",
+        "The activity must be done alone and in silence",
+        "The task must be familiar and well-practiced",
+        "The activity must be chosen freely rather than required by others"
+      ],
+      "answer": 0,
+      "explanation": "Flow occurs in the space between boredom (too little challenge) and anxiety (too much challenge), so matching the difficulty of a task to one's skill level is the key condition.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "Which of the following best captures the research definition of savoring as presented in the chapter?",
+      "choices": [
+        "Staying optimistic about the future despite present difficulties",
+        "Reflecting on past mistakes to learn from them",
+        "Setting ambitious goals and celebrating when they are reached",
+        "Mental or behavioral actions that produce, amplify, and extend positive feelings"
+      ],
+      "answer": 3,
+      "explanation": "Researchers define savoring as mental or behavioral actions that produce, amplify, and extend positive feelings, covering enjoyment rooted in the past, present, or anticipated future.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "The chapter identifies three time orientations of savoring. Which of the following correctly names all three?",
+      "choices": [
+        "Memory, mindfulness, and hope",
+        "Anticipation, reflection, and gratitude",
+        "Past, present, and future",
+        "Nostalgia, flow, and optimism"
+      ],
+      "answer": 2,
+      "explanation": "The chapter explicitly describes savoring as having a past component (reminiscence), a present component (mindful enjoyment), and a future component (anticipation of positive events).",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "What does the chapter identify as a key reason why flow experiences are naturally self-reinforcing?",
+      "choices": [
+        "They produce lasting external rewards such as promotions or prizes",
+        "They are easy to achieve once learned, making them a reliable comfort",
+        "They require no effort, so people return to them for rest",
+        "They are intrinsically rewarding, so people want to repeat them"
+      ],
+      "answer": 3,
+      "explanation": "Because flow states are intrinsically rewarding, people are drawn to repeat them, which in turn pushes them toward greater skill and more demanding challenges.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "When a person masters a skill to the point where a previously challenging task feels easy, what does the chapter say is necessary to restore the experience of flow?",
+      "choices": [
+        "Seeking more challenging activities or finding novel ways to apply the skill",
+        "Returning to simpler tasks to rebuild confidence",
+        "Practicing the same skill more slowly and carefully",
+        "Taking a long break before attempting the activity again"
+      ],
+      "answer": 0,
+      "explanation": "As skills improve, a task no longer occupies the balance point between challenge and boredom, so maintaining flow requires escalating the challenge or discovering new applications of the skill.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "In a pager study described in the chapter, workers were beeped throughout the day and reported on their mental state. What surprising gap did the results expose?",
+      "choices": [
+        "Hedonic adaptation to job demands",
+        "The tendency to overestimate the pleasure of leisure time",
+        "A disconnect between people's beliefs about work and their actual experience of it",
+        "The negative effect of external rewards on intrinsic motivation"
+      ],
+      "answer": 2,
+      "explanation": "Workers reported richer, more flow-conducive conditions on the job than at home, yet they still said they would rather be somewhere else while working, revealing a mismatch between their attitudes about work and what actually produced a positive experience.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter outlines three orientations workers hold toward their work. Which description best captures the orientation researchers label a calling?",
+      "choices": [
+        "Work is a necessary means of financial support and little more",
+        "Work is valued mainly for the status and advancement it provides",
+        "Work is tolerated in exchange for meaningful leisure activities",
+        "Work is fulfilling and inseparable from the rest of life, pursued because the person wants to do it"
+      ],
+      "answer": 3,
+      "explanation": "People with a calling orientation experience their work as fulfilling and socially useful and pursue it because they want to, not primarily for money or advancement.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Hospital cleaners who found flow and meaning in their jobs differed from colleagues who did not. What behaviors did the meaning-finding cleaners engage in?",
+      "choices": [
+        "They focused exclusively on technical efficiency and avoided socializing",
+        "They added tasks beyond their formal duties and saw their work as part of a larger system that helped patients",
+        "They requested transfers to higher-status departments",
+        "They worked faster to finish early and enjoy more free time"
+      ],
+      "answer": 1,
+      "explanation": "The engaged cleaners expanded their role by interacting with patients, rearranging the environment, and viewing their work as contributing to patient recovery, not merely completing a task list.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "What is the key difference the chapter draws between savoring and flow?",
+      "choices": [
+        "Savoring involves stepping outside an experience to appreciate it, while flow involves complete immersion in the experience",
+        "Flow produces longer-lasting happiness than savoring does",
+        "Flow focuses on the future while savoring focuses on the past",
+        "Savoring requires physical activity while flow occurs during mental tasks"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that savoring requires a moment of stepping back to review experience (noticing and appreciating it), whereas flow is total immersion without that self-reflective pause.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "According to the chapter, why does the author caution against using writing as a savoring tool for positive experiences?",
+      "choices": [
+        "Writing forces analytical organization of thoughts, which can reduce the pleasure associated with a positive event",
+        "Writing takes too long and causes the positive memory to fade before it is recorded",
+        "Writing tends to make people compare their experiences with others, leading to envy",
+        "Writing is most effective for negative events and has no effect on positive ones"
+      ],
+      "answer": 0,
+      "explanation": "Writing imposes a structured, analytical process that prompts people to dissect events rather than relish them, potentially draining the positive emotion rather than prolonging it.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Research on bittersweet experiences described in the chapter found that college seniors reminded that graduation was imminent did what, compared with those told graduation was still far away?",
+      "choices": [
+        "Spent more time planning for post-graduation goals",
+        "Showed greater increases in happiness and engaged in more savoring behaviors",
+        "Reported more anxiety about the future",
+        "Experienced more nostalgia but no change in overall happiness"
+      ],
+      "answer": 1,
+      "explanation": "Awareness of an impending ending prompted students to appreciate the present more fully, leading to higher happiness and more active savoring behaviors such as spending time with friends and taking scenic routes to class.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter recommends using a camera as a savoring tool. What specific guidance does it give about how photography can enhance rather than detract from enjoyment?",
+      "choices": [
+        "Take as many photos as possible to create a complete record of the experience",
+        "Share photos immediately so that others can affirm the experience",
+        "Focus on truly seeing what is beautiful and meaningful, and aim to take the best picture you can rather than the most pictures",
+        "Avoid photography entirely because looking through a lens makes you an observer rather than a participant"
+      ],
+      "answer": 2,
+      "explanation": "The chapter advises using the camera mindfully: by looking carefully to find the best shot rather than shooting indiscriminately, the photographer cultivates awareness and appreciation rather than detachment.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "What does mindfulness research cited in the chapter reveal about people who are habitually attentive to the present moment, compared with those who are not?",
+      "choices": [
+        "Their well-being profile includes elevated happiness and self-confidence alongside reduced rates of depression and anxiety",
+        "They tend to be more introspective and prone to overthinking",
+        "They focus so much on the present that they plan poorly for the future",
+        "They experience stronger emotions overall, both positive and negative"
+      ],
+      "answer": 0,
+      "explanation": "University of Rochester studies found that people high in mindfulness show a flourishing profile: elevated happiness, optimism, and self-confidence, paired with lower rates of depression, anxiety, and hostility.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Regarding nostalgia, how does the chapter say happier people differ from less happy people in using nostalgic memories?",
+      "choices": [
+        "Happier people avoid nostalgia because it makes them sad about what is gone",
+        "Happier people reminisce more frequently but for shorter periods of time",
+        "Happier people use nostalgia to compare the past favorably with the present and motivate change",
+        "Happier people treat positive past memories as assets that enrich their life story, rather than as proof that the best days are now over"
+      ],
+      "answer": 3,
+      "explanation": "The author's research found that the happiest people store positive memories as a kind of psychological treasure, experiencing those recollections as something that deepens their overall life story rather than lamenting that their finest moments are behind them.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter warns that even socially valued flow activities such as volunteering or working on a project can become problematic. What specific warning sign does the author give?",
+      "choices": [
+        "The activity begins to feel less enjoyable than it once did",
+        "The person consistently ignores the needs of people close to them",
+        "The activity begins to feel like an obligation rather than a choice",
+        "The person starts comparing their performance with others"
+      ],
+      "answer": 1,
+      "explanation": "The author notes that flow activities can become addictive, and the signal to watch for is habitually neglecting the needs of people close to you, regardless of how constructive the absorbing activity might be.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter argues that Csikszentmihalyi's concept of flow offers a response to the problem of hedonic adaptation and escalating expectations. What is the core of that response?",
+      "choices": [
+        "We should lower our expectations so that achievements feel more satisfying",
+        "We should avoid setting long-term goals and focus only on day-to-day pleasures",
+        "Frequent flow experiences reduce the brain's tendency to adapt to positive events",
+        "There is no problem with escalating goals as long as we find enjoyment in the process of pursuing them rather than only in the outcomes"
+      ],
+      "answer": 3,
+      "explanation": "Csikszentmihalyi's solution is that escalating ambition is fine provided we derive pleasure from the ongoing activity itself rather than deferring all satisfaction to the moment of achievement.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "A person who is very skilled at savoring the future, compared with someone skilled at savoring the present, would most likely show what pattern of outcomes based on the chapter's research summary?",
+      "choices": [
+        "Especially strong optimism and intense emotions but perhaps less protection from depression and stress",
+        "Lower stress but less optimism",
+        "Greater ability to buffer stress but less intense emotion overall",
+        "Higher self-confidence but greater susceptibility to anxiety"
+      ],
+      "answer": 0,
+      "explanation": "The chapter reports that future-oriented savoring is linked to optimism and intense emotions, while present-moment savoring better protects against depression and stress, so the future-savoring profile gains optimism and emotional intensity but lacks the depression-buffering benefit.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter ends with a caution about overdoing present-focus, citing homeless individuals and Alzheimer's patients. What broader principle does this caveat illustrate?",
+      "choices": [
+        "Flow and savoring are only beneficial for people who already have stable life circumstances",
+        "Living in the present is a positive strategy, but a flourishing life also requires the ability to plan ahead and learn from the past",
+        "Present-moment living should be pursued only during leisure time, not during work or planning",
+        "Mindfulness practices are most effective when combined with written reflection on past events"
+      ],
+      "answer": 1,
+      "explanation": "The author uses extreme cases of involuntary present-focus to argue that genuine well-being requires balancing absorption in the now with forward-thinking and past-learning, not eliminating those orientations entirely.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "Consider someone with a tedious daily commute who feels frustrated every day. Based on the chapter's specific guidance on microflow, what approach would best address this?",
+      "choices": [
+        "Listen to an audiobook to distract attention from the frustration of driving",
+        "Call a friend to socialize and make the time pass faster",
+        "Mentally rehearse conversations or meetings planned for the day ahead",
+        "Devise a small, rule-governed mental or physical activity during the commute that is mildly challenging and engaging"
+      ],
+      "answer": 3,
+      "explanation": "Microflow involves creating activities with specific goals and rules that inject a degree of challenge and engagement into otherwise monotonous situations, which is the technique the chapter directly prescribes for routine tasks like driving.",
+      "difficulty": "hard"
+    }
+  ]
 }

@@ -1,7 +1,248 @@
 {
   "chapter": 5,
-  "title": "Chapter 5",
-  "blurb": "",
-  "publish": false,
-  "questions": []
+  "title": "Investing in Social Connections",
+  "blurb": "Test your understanding of how practicing kindness and nurturing relationships can elevate happiness, based on the research and strategies in this chapter.",
+  "publish": true,
+  "questions": [
+    {
+      "prompt": "According to the chapter, what does the scientific literature consistently identify as one of the strongest links to happiness?",
+      "choices": [
+        "Higher income predicts greater reported happiness across all age groups.",
+        "Compared with less happy people, happy individuals tend to enjoy richer, more satisfying social lives.",
+        "Regular exercise is the single factor most reliably associated with high well-being.",
+        "Happy people are more likely to live in larger communities."
+      ],
+      "answer": 1,
+      "explanation": "The chapter describes a robust finding across many studies: people who score high on happiness measures also tend to have stronger, more fulfilling relationships with others, which is why social connection sits at the core of the book's happiness strategies.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "The chapter is organized around two evidence-based strategies that both involve social connection. Which pair correctly names them?",
+      "choices": [
+        "Volunteering regularly and meditating on gratitude.",
+        "Keeping a journal and spending time in nature.",
+        "Performing generous deeds for others and investing in close relationships.",
+        "Practicing forgiveness and expressing optimism."
+      ],
+      "answer": 2,
+      "explanation": "The chapter covers two distinct strategies: one centered on regularly doing generous, helpful acts for others, and one focused on strengthening bonds with family, friends, and partners. Both fall under the broader theme of social investment.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "In the chapter's first kindness intervention, two groups both completed the same number of generous acts each week over six weeks. What distinguished them, and which group gained the most happiness?",
+      "choices": [
+        "The group that concentrated all their weekly acts into one dedicated day showed the largest happiness gain.",
+        "The group that distributed its acts evenly across every day of the week showed the largest happiness gain.",
+        "The group that performed acts only for strangers rather than friends showed the largest happiness gain.",
+        "The group that chose larger, more time-consuming acts of kindness showed the largest happiness gain."
+      ],
+      "answer": 0,
+      "explanation": "Only participants who concentrated all their weekly generous acts into a single day showed a significant boost in happiness. Spreading them throughout the week made the acts less noticeable and distinct from everyday behavior.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "What term does the chapter use to describe the phenomenon where rising aspirations keep pace with rising income, preventing lasting satisfaction?",
+      "choices": [
+        "Upward social comparison.",
+        "Hedonic adaptation.",
+        "The Michelangelo effect.",
+        "The hedonic treadmill."
+      ],
+      "answer": 3,
+      "explanation": "The chapter uses the term 'hedonic treadmill' to describe how rising aspirations keep pace with rising income, preventing lasting satisfaction from material gains.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "According to John Gottman's research described in the chapter, what ratio of positive to negative behaviors characterizes happy marriages?",
+      "choices": [
+        "Two positive interactions for every one negative.",
+        "Three positive interactions for every one negative.",
+        "Ten positive interactions for every one negative.",
+        "Five positive interactions for every one negative."
+      ],
+      "answer": 3,
+      "explanation": "Gottman's research found that happy relationships are characterized by a five-to-one ratio of positive to negative affect, meaning five supportive or affirming behaviors for every critical or negative one.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "The chapter's second kindness study compared participants who varied their kind acts with those who repeated the same three acts every week. What did the low-variety group experience?",
+      "choices": [
+        "A steady, gradual increase in happiness across all ten weeks.",
+        "No change in happiness because repetition reinforced good habits.",
+        "A drop in happiness partway through before returning to baseline.",
+        "Higher happiness than the variety group because consistency felt meaningful."
+      ],
+      "answer": 2,
+      "explanation": "Participants forced to repeat the same kind acts actually saw their happiness decline midway through the study before recovering to original levels, suggesting that monotonous routines undermine the happiness benefits of kindness.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Why does the chapter suggest that doing all five weekly kind acts on one day is more effective than spreading them out?",
+      "choices": [
+        "People are naturally more empathetic early in the week.",
+        "Concentrated acts are more visible and feel more deliberate than everyday helpfulness.",
+        "Acts done on one day cost less time and effort overall.",
+        "Recipients appreciate kindness more when it is unexpected and infrequent."
+      ],
+      "answer": 1,
+      "explanation": "The author theorizes that spreading small acts over seven days blurs them into habitual behavior, while concentrating them makes them more conspicuous and meaningful to the doer, amplifying the happiness boost.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter notes that witnessing or hearing about kindness can produce a feeling of being 'elevated' in observers. What real-world example is used to illustrate this effect?",
+      "choices": [
+        "Participants who read about Bill Gates's philanthropy reported feeling more generous.",
+        "Students who observed their peers hugging showed increased happiness scores.",
+        "After seeing the courageous rescue efforts following the 9/11 attacks on television, many viewers were moved to give blood at dramatically higher rates than usual.",
+        "Nursing home residents who heard volunteers perform music felt less depressed."
+      ],
+      "answer": 2,
+      "explanation": "The chapter uses the 9/11 aftermath as a striking example: people watching heroic rescue workers on TV felt emotionally elevated and responded by going to donate blood at far higher rates than ordinary baseline levels.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "According to the chapter, what is one key reason why full-time caregiving for a chronically ill loved one can be harmful rather than happiness-enhancing?",
+      "choices": [
+        "Caregivers lack sufficient social support from community organizations.",
+        "Caregivers do not freely choose the role and therefore feel no sense of autonomy.",
+        "The helping is relentless and often accompanied by grief, burnout, and resentment.",
+        "Caregivers typically perform fewer acts of kindness outside the home."
+      ],
+      "answer": 2,
+      "explanation": "The chapter explains that full-time caregiving is associated with high rates of depression, stress, and burnout because it is unrelenting and frequently accompanied by grieving for the loss of the relationship as it was.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter describes the 'Michelangelo effect' in the context of romantic relationships. What does this term refer to?",
+      "choices": [
+        "Partners who argue creatively are more likely to produce novel solutions to conflicts.",
+        "Long-term partners eventually develop similar personality traits over time.",
+        "Couples who share artistic hobbies report higher relationship satisfaction.",
+        "Partners who idealize each other help one another grow closer to their ideal selves."
+      ],
+      "answer": 3,
+      "explanation": "The Michelangelo effect refers to the way romantic partners, through admiration and positive reinforcement, help each other sculpt and realize their ideal selves, just as Michelangelo claimed to reveal the form hidden within marble.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter discusses why people adapt less to relationships than to material goods. Which finding best supports this claim?",
+      "choices": [
+        "People revisit memories of relationships more often than memories of purchases.",
+        "Desires for satisfying marriages and children do not increase as those goals are attained.",
+        "Relationships provide informational support that material goods cannot replicate.",
+        "Social bonds activate different reward pathways than consumer purchases do."
+      ],
+      "answer": 1,
+      "explanation": "An economist's research cited in the chapter found that people's desire for good marriages and children does not rise to match attainment, unlike income aspirations, making relationships more resistant to hedonic adaptation.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter identifies 'capitalizing on good fortune' as an important relationship strategy. What does this strategy involve?",
+      "choices": [
+        "Responding with enthusiasm and active interest when a loved one shares good news.",
+        "Sharing financial windfalls with a partner to reduce stress over money.",
+        "Encouraging a partner to take calculated risks in pursuit of career goals.",
+        "Celebrating each relationship milestone with a planned shared activity."
+      ],
+      "answer": 0,
+      "explanation": "Capitalizing on good fortune means responding actively and constructively, with genuine enthusiasm, when a partner or friend shares positive news. Research shows this strengthens intimacy and closeness more than how partners handle bad news.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "In the MS peer-support study described in the chapter, which group showed greater benefits over the three years of the study?",
+      "choices": [
+        "The sixty-seven patients who received monthly phone calls from peer supporters.",
+        "The five volunteer peer supporters who made the monthly calls.",
+        "Both groups improved equally, but in different areas of well-being.",
+        "Neither group improved because the monthly calls were too infrequent."
+      ],
+      "answer": 1,
+      "explanation": "The five volunteers who served as peer supporters gained dramatically larger benefits than the patients they helped, including a boost in global life satisfaction seven times greater than that of the patients.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "How does the chapter say happy couples handle conflict differently from unhappy couples?",
+      "choices": [
+        "Happy couples avoid raising difficult topics until tensions have cooled for at least a day.",
+        "Happy couples fight less frequently and at lower emotional intensity than unhappy couples.",
+        "Happy couples use small de-escalating gestures during disagreements rather than simply fighting less.",
+        "Happy couples resolve conflicts faster because they share more common values and goals."
+      ],
+      "answer": 2,
+      "explanation": "The chapter clarifies that happy couples do not necessarily fight less, but they handle conflict differently by using small repair attempts, such as friendly humor or a moment of affection, that reduce tension during a dispute.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "In the Penn State hugging study, what design requirement was key to producing happiness gains in participants?",
+      "choices": [
+        "Hugs had to last at least thirty seconds and include verbal affirmation.",
+        "Students were required to seek out a wide variety of people to embrace rather than hugging only one familiar partner.",
+        "Participants had to hug the same person repeatedly to build a lasting bond.",
+        "Hugs were only counted if both participants agreed they felt meaningful."
+      ],
+      "answer": 1,
+      "explanation": "The study required participants to seek out a broad range of partners rather than hugging the same person repeatedly, which helped spread connection across their social network and contributed to the happiness gains.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "A person commits to performing acts of kindness every day for months but notices no lasting improvement in happiness. Based on the chapter's findings, what is the most likely explanation?",
+      "choices": [
+        "Her acts are probably too large and time-consuming, causing fatigue and resentment.",
+        "Kindness only raises happiness when done for strangers rather than for people one already knows.",
+        "She has not concentrated her acts into a single day per week, so they blend into habitual behavior.",
+        "Daily practice is effective only when combined with a formal gratitude journal."
+      ],
+      "answer": 2,
+      "explanation": "The chapter's first intervention study found that spreading kind acts across every day of the week diminishes their impact because they become indistinguishable from ordinary helpful behavior. Concentrating acts into one dedicated day preserves their salience.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter argues that social relationships produce less hedonic adaptation than material goods. Which scenario best illustrates this principle in action?",
+      "choices": [
+        "A person who buys a new car quickly stops noticing its appeal, while a long-term friendship continues to feel meaningful years later.",
+        "A person who earns a promotion feels happy longer than someone who simply receives praise from a friend.",
+        "A person adapts to losing a close friend faster than to losing a high-paying job.",
+        "Material goods become more satisfying over time once they are fully paid off and no longer create financial stress."
+      ],
+      "answer": 0,
+      "explanation": "The chapter's key point is that aspirations for quality relationships do not escalate the way income aspirations do, so people do not adapt to satisfying relationships as quickly as they adapt to consumer goods or higher salaries.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "A manager decides to boost her team's morale by requiring each employee to perform three specific prescribed kind acts every workday for two months. Based on the chapter's research, what outcome is most likely?",
+      "choices": [
+        "Employees will show sustained happiness gains because daily practice builds lasting habits.",
+        "Happiness will rise initially but then decline as the mandatory, repetitive acts feel obligatory rather than freely chosen.",
+        "Employees who help strangers outside work will benefit more than those who help coworkers.",
+        "The program will succeed if acts are timed to the morning rather than distributed throughout the day."
+      ],
+      "answer": 1,
+      "explanation": "The chapter's second kindness study found that repeating the same acts without variety caused a mid-study drop in happiness, and the chapter also notes that kindness must be freely chosen to maximize benefits. Mandatory, repetitive routines undermine both conditions.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter describes the relationship between happiness and social connection as bidirectional. Which of the following correctly captures what this means for someone hoping to build better relationships?",
+      "choices": [
+        "You must first become happier through individual practices before you can benefit from relationships.",
+        "People who are naturally sociable will always be happier, regardless of deliberate effort.",
+        "Relationship quality matters for happiness only when supported by stable income and good health.",
+        "Improving relationships will increase happiness, and that increased happiness will in turn help attract and maintain better relationships."
+      ],
+      "answer": 3,
+      "explanation": "The chapter explicitly describes an upward spiral: nurturing relationships raises happiness, and greater happiness makes it easier to form and sustain high-quality relationships, which raises happiness further.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "Someone who regularly volunteers at a hospital each weekend decides to count those shifts as their weekly acts of kindness for the chapter's strategy. According to the chapter's recommendations, why is this approach likely to fall short?",
+      "choices": [
+        "Institutional volunteering does not qualify as genuine kindness because it is scheduled in advance.",
+        "The happiness strategy calls for acts that go beyond what you already do habitually, so existing routines do not generate the extra lift.",
+        "Acts performed on a recurring schedule cannot be varied enough to maintain the element of surprise.",
+        "Long-term volunteering commitments help well-being in the short term but are linked to burnout over time."
+      ],
+      "answer": 1,
+      "explanation": "The chapter specifically advises choosing acts that pull you out of your usual routine. If a person already volunteers regularly, those existing habits do not count as new kind acts because the happiness benefit comes from doing something above and beyond what is customary.",
+      "difficulty": "hard"
+    }
+  ]
 }

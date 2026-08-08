@@ -1,7 +1,248 @@
 {
   "chapter": 6,
-  "title": "Chapter 6",
-  "blurb": "",
-  "publish": false,
-  "questions": []
+  "title": "Managing Stress, Hardship, and Trauma",
+  "blurb": "Test your grasp of the coping strategies, posttraumatic growth concepts, forgiveness techniques, and research findings covered in this chapter on handling life's hardships.",
+  "publish": true,
+  "questions": [
+    {
+      "prompt": "According to the chapter, what are the two broad categories that psychologists traditionally use to classify coping strategies?",
+      "choices": [
+        "Problem-focused and emotion-focused coping",
+        "Avoidance-focused and approach-focused coping",
+        "Cognitive and behavioral coping",
+        "Active and passive coping"
+      ],
+      "answer": 0,
+      "explanation": "The chapter describes a long-standing convention in psychology that divides coping into problem-focused coping, which involves acting on the situation, and emotion-focused coping, which involves managing one's emotional reactions to it.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "What is 'construing benefit in trauma' as described in this chapter?",
+      "choices": [
+        "Denying that a traumatic event actually caused harm",
+        "Convincing yourself the trauma never happened",
+        "Perceiving some positive value or personal growth as a result of a loss or hardship",
+        "Seeking legal compensation after being wronged"
+      ],
+      "answer": 2,
+      "explanation": "Construing benefit in trauma means finding some genuine value or gain in a negative experience, such as a change in life perspective, a sense that life has greater meaning, or awareness of personal strengths the person did not know they had.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "According to the chapter, what term describes the phenomenon in which some people not only recover from a major trauma but ultimately function at a higher level than before?",
+      "choices": [
+        "Emotional resilience",
+        "Adaptive coping",
+        "Benefit construal",
+        "Posttraumatic growth"
+      ],
+      "answer": 3,
+      "explanation": "The chapter uses the term 'posttraumatic growth' to describe cases where people do more than survive or recover from trauma; they ultimately thrive and reach a level of functioning that surpasses their pre-trauma state.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "James Pennebaker's research on expressive writing found that participants who wrote about their deepest thoughts and feelings regarding a traumatic experience showed which of the following outcomes compared with control participants?",
+      "choices": [
+        "Higher rates of depression but better physical health",
+        "Fewer doctor visits and improved immune function",
+        "Increased rumination but greater career success",
+        "Reduced productivity and lower academic grades"
+      ],
+      "answer": 1,
+      "explanation": "The chapter reports that, compared with people who wrote on neutral topics, those who engaged in expressive writing about past traumas made fewer medical visits, showed improved immune function, reported less distress, and earned higher grades.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "How does the chapter define forgiveness in the context of psychological research?",
+      "choices": [
+        "Legally pardoning someone for the harm they caused",
+        "Fully forgetting the injury so it no longer influences your feelings",
+        "Reconciling with and restoring a relationship with the person who wronged you",
+        "Reducing motivations for avoidance and revenge and ideally replacing them with more positive attitudes"
+      ],
+      "answer": 3,
+      "explanation": "The chapter explains that researchers define forgiveness as suppressing or mitigating drives for avoidance and revenge and ideally shifting toward more benevolent attitudes, which is distinct from legal pardon, forgetting, or necessarily reconciling.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "When is emotion-focused coping described in the chapter as the most appropriate choice?",
+      "choices": [
+        "When the situation is uncontrollable or the person is too overwhelmed to take action",
+        "When the stressor is mild and easy to address directly",
+        "When a person prefers rational solutions over emotional processing",
+        "When social support from others is unavailable"
+      ],
+      "answer": 0,
+      "explanation": "The chapter explains that emotion-focused coping is the suitable approach when the negative event cannot be changed or when the person is too flooded with emotion to begin taking practical action, such as when grieving a death.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "In a study where highly distressed widows and widowers attended counseling to learn both coping styles, which surprising finding emerged about how gains were distributed across the two groups?",
+      "choices": [
+        "Both groups improved equally regardless of which coping style they practiced",
+        "Neither group showed measurable improvement after the counseling sessions",
+        "Widowers gained the most from problem-focused training, widows from emotion-focused training",
+        "Widowers gained the most from emotion-focused training, widows from problem-focused training"
+      ],
+      "answer": 3,
+      "explanation": "The chapter reports that widowers derived the greatest advantage from learning emotion-focused approaches, while widows derived the greatest advantage from learning problem-focused approaches. The likely reason is that each group benefited most from practicing whatever style they did not already rely on habitually.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "In the breast cancer survivor study described in the chapter, many women held overly optimistic beliefs about controlling their cancer even when medical evidence contradicted them. What did researchers conclude about these beliefs?",
+      "choices": [
+        "They were a form of adaptive optimism associated with good mental health and adjustment",
+        "They were signs of denial that predicted worse health outcomes",
+        "They indicated these women had less accurate self-knowledge than average",
+        "They were symptoms of posttraumatic stress disorder requiring treatment"
+      ],
+      "answer": 0,
+      "explanation": "The chapter reports that, paradoxically, these overly optimistic beliefs were associated with being rated as mentally healthy and well adjusted by oncologists and psychologists, and the women's well-being did not deteriorate even when their optimistic beliefs were clearly disproved.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter describes three possible paths after a major trauma. Which path describes someone who temporarily loses functioning but eventually returns to the same level as before?",
+      "choices": [
+        "Thriving",
+        "Recovery",
+        "Survival",
+        "Posttraumatic growth"
+      ],
+      "answer": 1,
+      "explanation": "The chapter distinguishes recovery as the path where a person suffers following a trauma but ultimately returns to their original level of functioning, unlike survival (permanent impairment) or thriving (rising above the original state).",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "A study of bereaved spouses whose partners had died suddenly compared those who sought emotional confidants with those who did not. What did the chapter report about the health outcomes of those who opened up to others?",
+      "choices": [
+        "They ruminated more but had fewer physical health complaints",
+        "They showed greater emotional distress but returned to work faster",
+        "No measurable difference in health or well-being was found between the groups",
+        "They reported better physical health and a lower tendency to dwell on their loss"
+      ],
+      "answer": 3,
+      "explanation": "The chapter describes a study finding that bereaved individuals who turned to trusted companions for support experienced better physical health and were less prone to ruminating about what had happened, demonstrating both bodily and psychological dividends from social connection.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "What does current research suggest is the primary mechanism behind the benefits of expressive writing about trauma?",
+      "choices": [
+        "Emotional catharsis alone, through venting, produces the benefits",
+        "The benefit comes primarily from social feedback after sharing the writing with others",
+        "Writing helps organize chaotic thoughts into a coherent narrative, facilitating meaning-making and reducing intrusive ruminations",
+        "Writing is only effective when begun immediately after the traumatic event occurs"
+      ],
+      "answer": 2,
+      "explanation": "The chapter explains that early researchers attributed the benefits to catharsis, but this hypothesis has been widely challenged. The real mechanism appears to be that converting chaotic thoughts into structured language helps people make sense of their experience and reduces intrusive ruminations.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "In the ABCDE coping technique derived from cognitive therapy, what is the role of the 'D' step?",
+      "choices": [
+        "Describe the event in writing to make it feel more concrete",
+        "Detach from the emotional response by observing it from a distance",
+        "Document all consequences of the adversity in a written record",
+        "Dispute or actively challenge the pessimistic beliefs triggered by the adversity"
+      ],
+      "answer": 3,
+      "explanation": "In the ABCDE technique, 'D' stands for disputation: deliberately arguing against one's own overly pessimistic automatic beliefs by searching for evidence and alternative explanations, which then energizes a more hopeful response.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "According to the chapter's discussion of finding meaning after trauma, what does a threat to a person's 'assumptive world' mean?",
+      "choices": [
+        "The implicit belief that the world is controllable and just, which a traumatic event can expose as an illusion",
+        "A person's plan for the future that trauma makes impossible to achieve",
+        "A cognitive strategy for reframing painful memories as imaginary",
+        "The shared social norms that determine which kinds of trauma are considered acceptable"
+      ],
+      "answer": 0,
+      "explanation": "The chapter explains that in Western cultures people often implicitly believe the world is fair and predictable. When something terrible happens, this belief in a just world is shattered, forcing people to reconstruct their assumptions and search for meaning.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The 'imagine forgiveness' exercise described in the chapter asks participants to make two key cognitive shifts. What are they?",
+      "choices": [
+        "Deny that harm occurred and congratulate oneself for surviving it",
+        "Empathize with the offender by seeing their perspective and then imaginatively grant that person forgiveness",
+        "List grievances in detail and then write a rebuttal to each one",
+        "Focus on the costs of not forgiving and identify someone else who has been similarly wronged"
+      ],
+      "answer": 1,
+      "explanation": "The exercise asks the person to empathize with the offender by viewing the situation through that person's eyes, and then to imaginatively grant forgiveness. Research found this lowered participants' physiological stress responses and reduced feelings of sadness and anger.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Why does the chapter say that mentally rehearsing grievances or fantasizing about revenge does NOT reduce anger toward someone who wronged you?",
+      "choices": [
+        "Because the brain cannot distinguish imagination from real events",
+        "Because revenge fantasies activate compassion circuits that override anger",
+        "Because the offender is unaware of the mental rehearsal and therefore cannot respond",
+        "Because each mental rehearsal re-triggers the original feelings of hurt and hostility"
+      ],
+      "answer": 3,
+      "explanation": "The chapter cites research debunking 'catharsis theory': replaying an offense in one's mind re-activates all the associated hurt, blame, and rage each time, actually increasing rather than decreasing hostility over time.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "A man who had a heart attack at fifty believes it happened because he was too stressed at work and blames his demanding colleagues. According to the chapter's research on heart attack survivors, how does this framing compare with finding benefit in the event?",
+      "choices": [
+        "Blaming stress and others is actually protective because it externalizes responsibility",
+        "Construing benefit shortly after the attack predicted lower recurrence rates and better health at an eight-year follow-up, while blaming others or one's emotions predicted worse outcomes",
+        "The two framings produce identical health outcomes over time",
+        "Blaming one's own emotions is protective but blaming others is harmful"
+      ],
+      "answer": 1,
+      "explanation": "The chapter describes a study tracking heart attack patients over time. Those who found some positive meaning or growth in their experience within weeks of the attack were less likely to suffer recurrences and showed stronger health at an eight-year follow-up. By contrast, patients who assigned blame to other people or to their own emotional state were in markedly worse health by that same follow-up.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter reports that women cancer patients who attended weekly support groups lived an average of eighteen months longer. Which broader conclusion does the author draw from this and related immune-function findings?",
+      "choices": [
+        "Social support is primarily useful for emotional comfort but has little measurable biological effect",
+        "Group therapy is more effective than individual therapy specifically for cancer patients",
+        "Seeking social support can activate immune function, suggesting that psychological coping strategies can influence physical health processes",
+        "Longer survival is explained mainly by practical medical information exchanged in support groups"
+      ],
+      "answer": 2,
+      "explanation": "The chapter uses this finding alongside natural-killer-cell activity data to argue that social support is not just emotionally beneficial but can tangibly influence the body's immune response, demonstrating a genuine mind-body connection in coping.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "Someone who has lost a spouse writes a journal in which she describes what she is proud of having done during the loss, how she has grown as a person, and how some relationships have deepened. Which specific coping exercise from the chapter is she following?",
+      "choices": [
+        "The ABCDE disputation exercise, aimed at challenging her pessimistic beliefs",
+        "Free expressive writing in Pennebaker's style, aimed at venting deep emotions without structure",
+        "The benefit-construing writing exercise, aimed at finding positive value within the painful experience",
+        "The forgiveness letter exercise, aimed at releasing resentment toward the deceased"
+      ],
+      "answer": 2,
+      "explanation": "The chapter describes a guided three-step journal exercise designed to construe benefit in trauma: acknowledging pain, reflecting on what one is proud of, considering personal growth, and examining how relationships have been strengthened. This differs from open-ended Pennebaker writing and from ABCDE disputation.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter carefully distinguishes forgiveness from several related concepts. Which pairing correctly matches the terms with the chapter's definitions?",
+      "choices": [
+        "Condoning means accepting the event legally; reconciliation means justifying the behavior",
+        "Pardon means resuming the relationship; excusing means a true internal shift in motivation",
+        "Excusing means forgiving unconditionally; forgiveness means excusing with conditions",
+        "Forgiveness means a shift in motivation away from revenge and avoidance; reconciliation means reestablishing the actual relationship with the transgressor"
+      ],
+      "answer": 3,
+      "explanation": "The chapter carefully distinguishes forgiveness (an internal shift in motivation away from revenge and avoidance) from reconciliation (reestablishing the actual relationship), and further separates both from pardon (a legal act), condoning (minimizing harm), and excusing (offering a justifying reason).",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "A concentration camp survivor described managing her memories by maintaining a strict mental separation between her camp experiences and her present daily life. The chapter also mentions a U.S. president who used a similar approach during a personal scandal. What strategy does the chapter identify, and what broader point does this illustrate?",
+      "choices": [
+        "Emotional catharsis, demonstrating that releasing suppressed memories is the key to recovery",
+        "Problem-focused coping, demonstrating that taking direct action on a problem always leads to thriving",
+        "Compartmentalization, demonstrating that even extreme barriers to thriving can be addressed with demanding and creative strategies",
+        "Benefit construal, demonstrating that reframing the meaning of a trauma is the most powerful coping method"
+      ],
+      "answer": 2,
+      "explanation": "The chapter uses the concentration camp survivor and the president as examples of compartmentalization, a strategy of mentally separating painful memories from normal daily functioning. This illustrates the author's point that even when barriers to thriving are massive, demanding and creative strategies can still support recovery.",
+      "difficulty": "hard"
+    }
+  ]
 }

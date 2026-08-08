@@ -1,7 +1,248 @@
 {
   "chapter": 4,
-  "title": "Chapter 4",
-  "blurb": "",
-  "publish": false,
-  "questions": []
+  "title": "Practicing Gratitude and Positive Thinking",
+  "blurb": "Test your understanding of three research-backed happiness strategies: expressing gratitude, cultivating optimism, and breaking free from overthinking and social comparison.",
+  "publish": true,
+  "questions": [
+    {
+      "prompt": "According to Chapter 4, which of the following best describes how gratitude functions in relation to negative emotions?",
+      "choices": [
+        "It acts as an antidote that neutralizes feelings like envy, hostility, and resentment",
+        "It redirects negative emotions into productive anger",
+        "It suppresses negative emotions temporarily but intensifies them later",
+        "It converts negative emotions into indifference"
+      ],
+      "answer": 0,
+      "explanation": "The chapter describes gratitude as an antidote to negative emotions, capable of neutralizing envy, avarice, hostility, worry, and irritation rather than merely suppressing or redirecting them.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "In the author's gratitude journal study, participants listed five things they were grateful for each session. Which group showed the greatest increase in happiness?",
+      "choices": [
+        "Those who wrote three times a week (Tuesday, Thursday, and Sunday)",
+        "Those who wrote daily",
+        "Those who wrote once a week, on Sunday nights",
+        "Those in the control group who wrote about daily hassles"
+      ],
+      "answer": 2,
+      "explanation": "The study found that participants who practiced gratitude once a week, specifically on Sunday nights, became measurably happier, while those who did it three times a week showed no benefit, likely because more frequent repetition became tedious.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "What is the name of the optimism exercise, developed by Laura King, in which people write about a future version of themselves who has fully achieved their most important life goals?",
+      "choices": [
+        "Positive Future Mapping",
+        "Goal Visualization Protocol",
+        "Ideal Self Journaling",
+        "Best Possible Selves"
+      ],
+      "answer": 3,
+      "explanation": "Laura King pioneered the Best Possible Selves exercise, which invites participants to write about a future in which their deepest goals have all been realized and their life has turned out exactly as they had hoped.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "The chapter defines overthinking as a pattern of thought that is best characterized as:",
+      "choices": [
+        "Rapid, impulsive decision-making that ignores consequences",
+        "Active problem-solving that continues for too long without resolution",
+        "Critical thinking that becomes overly analytical in social situations",
+        "Passive, excessive, and repetitive dwelling on the meanings, causes, and consequences of one's feelings and problems"
+      ],
+      "answer": 3,
+      "explanation": "The chapter defines overthinking as thinking too much, needlessly, passively, and endlessly about the meanings, causes, and consequences of one's character, feelings, and problems. It is passive, circular dwelling, not active problem-solving.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "Gratitude is described in this chapter as a strategy that counteracts hedonic adaptation. What does hedonic adaptation mean in this context?",
+      "choices": [
+        "The process by which people quickly adjust to new circumstances, causing initial happiness boosts to fade",
+        "The tendency to prefer pleasurable activities over painful ones",
+        "A biological mechanism that gradually increases sensitivity to pleasure",
+        "The habit of comparing one's own pleasures to those of others"
+      ],
+      "answer": 0,
+      "explanation": "Hedonic adaptation is the human capacity to adjust rapidly to new circumstances, including positive ones, causing initial happiness boosts from good events to fade. Gratitude counteracts this by preventing people from taking positive things for granted.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "Early research on gratitude used correlational designs. What is the key limitation of a correlational finding that links gratefulness to greater happiness and health?",
+      "choices": [
+        "Correlational studies cannot recruit enough participants to be statistically meaningful",
+        "The studies could not distinguish between different expressions of gratitude",
+        "It is impossible to determine whether gratitude causes the benefits or whether positive traits simply make people more grateful",
+        "Correlational research produces unreliable self-report data"
+      ],
+      "answer": 2,
+      "explanation": "A correlational finding cannot establish causation. It is unclear whether gratitude produces the observed benefits or whether having traits like hopefulness and helpfulness simply makes a person more inclined toward gratitude in the first place.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter offers eight reasons why gratitude boosts happiness. Which of the following is NOT one of those eight reasons?",
+      "choices": [
+        "Gratitude promotes the savoring of positive life experiences",
+        "Gratitude serves as an adaptive tool for managing adversity and difficult life events",
+        "Gratitude directly increases a person's financial generosity toward strangers",
+        "Gratitude helps thwart hedonic adaptation"
+      ],
+      "answer": 2,
+      "explanation": "The eight reasons involve savoring, self-worth, coping, moral behavior, social bonds, inhibiting comparisons, neutralizing negative emotions, and thwarting hedonic adaptation. Increasing financial generosity specifically is not listed among the eight mechanisms.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Martin Seligman's research on gratitude visits found which pattern in happiness benefits over time?",
+      "choices": [
+        "Only participants who had never expressed gratitude before showed lasting gains",
+        "Benefits were strong immediately but disappeared within one week",
+        "Benefits appeared only after repeated visits conducted over several months",
+        "Participants felt happier immediately and those boosts persisted for at least one month"
+      ],
+      "answer": 3,
+      "explanation": "Seligman's gratitude visit study found that participants who wrote and delivered a letter of thanks showed the largest immediate happiness boosts in the study, and those boosts were still measurable one week and even one month after the visit.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter distinguishes 'big optimism' from 'little optimism.' Which statement correctly captures the difference between these two forms?",
+      "choices": [
+        "Big optimism produces an overall sense of vigor and resilience, while little optimism involves specific positive expectations that guide concrete behavior",
+        "Little optimism is unhealthy, while big optimism is the only adaptive form",
+        "Big optimism requires more deliberate effort to cultivate than little optimism does",
+        "Big optimism applies only to personal goals, while little optimism applies to global events"
+      ],
+      "answer": 0,
+      "explanation": "The chapter explains that big optimism produces a broad feeling of vigor and resilience, while little optimism involves specific, smaller positive expectations that prompt constructive behavior in particular situations. Both are described as adaptive, just in different ways.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Some researchers define optimism by studying how people explain negative events. According to this explanatory-style approach, an optimistic explanation for a failure attributes the cause to something that is:",
+      "choices": [
+        "Internal, stable, and broad in scope",
+        "Personal, long-lasting, and situation-specific",
+        "Random, uncontrollable, and global",
+        "External, transient, and specific to that situation"
+      ],
+      "answer": 3,
+      "explanation": "Researchers who study explanatory style classify a person as optimistic when they attribute setbacks to causes that are external (not their fault), transient (temporary), and specific (limited to one situation), rather than internal, stable, and pervasive.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter describes a word-completion experiment in which participants first received negative feedback, then filled in incomplete words. What did the results reveal about unhappy participants compared to happy ones?",
+      "choices": [
+        "Unhappy participants were faster at completing the words, suggesting heightened arousal after failure",
+        "Both groups completed the words similarly, suggesting mood had no effect on cognition",
+        "Happy participants chose more negative word completions because they found the task more challenging",
+        "Unhappy participants completed the words with self-critical, negative terms, showing they could not shake off the earlier failure"
+      ],
+      "answer": 3,
+      "explanation": "After receiving failure feedback, unhappy participants tended to fill in ambiguous words with negative, self-evaluative terms such as 'loser' or 'dumb,' revealing that they were still ruminating on the setback. Happy participants were able to move past the negative experience.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "When the author and Lee Ross first studied social comparison in exceptionally happy versus unhappy people, their initial hypothesis was that happy people would compare themselves downward. What did they actually find?",
+      "choices": [
+        "Happy people appeared largely indifferent to social comparisons, relying on internal standards instead",
+        "Happy people compared themselves upward to feel motivated to improve",
+        "Happy people made frequent downward comparisons but tried to conceal them",
+        "Happy people avoided all situations where information about others' performance was available"
+      ],
+      "answer": 0,
+      "explanation": "Contrary to the original hypothesis, happy participants seemed not to care about social comparisons at all. They used their own internal standards to judge themselves rather than letting others' performance influence their self-assessment.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The author's laboratory found that participants who wrote gratitude letters without sending them still experienced happiness gains. Which factors most amplified those gains?",
+      "choices": [
+        "Writing to a family member rather than a friend, and writing letters longer than one page",
+        "Writing early in the morning and using handwriting rather than typing",
+        "Being highly motivated to become happier, finding the activity fitting to their goals, and investing substantial effort",
+        "Having a partner review the letter before it was finalized"
+      ],
+      "answer": 2,
+      "explanation": "The study found that the happiness boost from writing unsent gratitude letters was especially pronounced when participants were highly motivated to become happier, when the activity aligned with their personal goals and preferences, and when they invested extra effort in the task.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter recommends keeping gratitude practices fresh through variety. Which of the following best explains why variety matters for sustaining the happiness benefits?",
+      "choices": [
+        "Variety ensures that the same blessings are counted multiple times for maximum reinforcement",
+        "Repeating the exact same practice too frequently can make it feel like a chore, reducing its meaning and effectiveness",
+        "Variety prevents the brain from forming memories of gratitude, keeping each experience neurologically novel",
+        "Changing the practice frequently resets the body's stress hormone levels"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's research showed that when gratitude became a rigid, repetitive routine, participants grew bored and stopped extracting meaning from the practice. Varying the method, timing, or focus keeps the activity fresh so it continues to raise well-being instead of plateauing.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter notes that optimists respond to severe adversity, such as a serious health diagnosis, in a distinctive way. Which response is most consistent with how the chapter characterizes optimists in these situations?",
+      "choices": [
+        "They focus exclusively on positive information and disregard any discouraging medical advice",
+        "They accept the reality of their condition and look for ways to adapt, cope, and potentially grow from it",
+        "They tend to become passive and wait for circumstances to improve on their own",
+        "They deny the severity of their situation to protect themselves from distress"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states that even in the worst circumstances, optimists do not deny their situation but instead accept its reality and actively work to make the best of it and potentially grow from it, which is part of why they maintain higher well-being under stress.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "A person practices gratitude regularly and notices that a colleague's higher salary no longer triggers envy. According to the chapter's eight mechanisms, which specific reason best explains this change?",
+      "choices": [
+        "Gratitude promotes the savoring of positive life experiences",
+        "Gratitude bolsters self-worth and self-esteem",
+        "Gratitude helps build and strengthen social bonds",
+        "Gratitude inhibits invidious comparisons with others"
+      ],
+      "answer": 3,
+      "explanation": "The sixth of the eight reasons the chapter gives for why gratitude boosts happiness is that being genuinely thankful for what one has makes a person less likely to notice or envy what others possess. This directly addresses the tendency to make unfavorable social comparisons.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter addresses the concern that optimism is a form of self-deception and quotes the author's adviser Lee Ross in response. What is the central insight of his argument?",
+      "choices": [
+        "Optimism requires ignoring the negative aspects of life to be effective",
+        "Realistic thinking is always preferable to optimistic thinking in difficult situations",
+        "The world is both horrible and wonderful at the same time, and optimism is a deliberate choice about which truth to place in the foreground",
+        "Self-deception is harmless and even beneficial when it produces positive emotional outcomes"
+      ],
+      "answer": 2,
+      "explanation": "Ross's point is that both terrible and wonderful truths coexist in the world. Choosing optimism is not a denial of the negative but a deliberate decision to place the positive truth in the foreground of one's attention, making it a choice rather than a distortion of reality.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter warns that dwelling on problems while already feeling low creates a particularly destructive spiral. Which scenario best illustrates this self-defeating pattern?",
+      "choices": [
+        "A person who loses a client, obsesses over every sign that she is inadequate, and consequently avoids making new sales calls, losing even more business",
+        "A person who feels sad briefly but then distracts herself with a hobby and recovers quickly",
+        "A student who fails a test, reflects on the material for one hour, then studies more strategically and improves",
+        "An employee who worries about a presentation the night before but uses that anxiety as motivation to prepare thoroughly"
+      ],
+      "answer": 0,
+      "explanation": "The chapter traces exactly this kind of downward spiral: negative mood combined with overthinking produces distorted pessimistic beliefs, which impair motivation and performance, creating a self-fulfilling prophecy in which things actually get worse as a result.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter explains why the Best Possible Selves exercise benefits from being done through writing rather than through pure mental visualization. Which reason does the chapter specifically give?",
+      "choices": [
+        "Writing creates a permanent record that can be reviewed repeatedly, reinforcing optimistic beliefs through repetition",
+        "Writing is structured and rule-bound, which compels people to organize, integrate, and analyze their goals in ways that unfocused fantasy cannot",
+        "Writing activates different brain regions than visualization does, producing more stable and lasting mood changes",
+        "Writing is a more social activity and therefore activates stronger positive emotions through anticipated sharing"
+      ],
+      "answer": 1,
+      "explanation": "The chapter explains that because writing is highly structured and systematic, it forces people to organize and integrate their thoughts coherently. This structured quality allows people to find meaning, understand their priorities, and see a clear path forward in ways that undirected daydreaming cannot replicate.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter introduces posttraumatic growth as part of the discussion on avoiding overthinking. Within the three-step approach to battling rumination, at which step does this concept most naturally apply?",
+      "choices": [
+        "The first step of cutting loose from rumination through distraction techniques",
+        "A preliminary step that occurs before engaging any of the three main steps",
+        "The second step of acting to solve concrete problems through small immediate actions",
+        "The third step of taking in the big picture by asking what a difficulty can teach you"
+      ],
+      "answer": 3,
+      "explanation": "The chapter introduces posttraumatic growth in the context of the third step, 'take in the big picture.' When a difficulty is genuinely significant and will matter in a year, focusing on what it can teach you (patience, perseverance, courage) represents a key tool used by happy, resilient people.",
+      "difficulty": "hard"
+    }
+  ]
 }

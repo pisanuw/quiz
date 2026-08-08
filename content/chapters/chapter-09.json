@@ -1,7 +1,248 @@
 {
   "chapter": 9,
-  "title": "Chapter 9",
-  "blurb": "",
-  "publish": false,
-  "questions": []
+  "title": "Taking Care of Your Body and Your Soul",
+  "blurb": "Test your understanding of how religion, spirituality, meditation, physical activity, and acting like a happy person each contribute to lasting well-being.",
+  "publish": true,
+  "questions": [
+    {
+      "prompt": "Research discussed in the chapter consistently shows that religious people compare to nonreligious people in what way?",
+      "choices": [
+        "They tend to be happier, healthier, and recover better from trauma",
+        "They are happier but show no measurable physical health advantages",
+        "They cope better with crises but report lower everyday life satisfaction",
+        "They live longer but are not meaningfully happier on average"
+      ],
+      "answer": 0,
+      "explanation": "A growing body of psychological research shows that religious individuals report greater happiness, better physical health, and stronger resilience after traumatic events compared to nonreligious people.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "What single element do all forms of meditation share, regardless of whether the technique is concentrative, mindfulness-based, or contemplative?",
+      "choices": [
+        "Repeating a sacred word or mantra from a religious tradition",
+        "The cultivation of attention",
+        "Achieving a complete absence of thought",
+        "Focusing on slow, rhythmic breathing counted in cycles"
+      ],
+      "answer": 1,
+      "explanation": "The chapter explains that while meditation takes many forms, all varieties share the fundamental practice of cultivating attention, whether directed narrowly at one object or opened broadly to all present-moment experience.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "The SMILE study randomly assigned clinically depressed adults to four months of aerobic exercise, antidepressant medication (Zoloft), or a combination of both. How did the exercise-only group fare compared with the medication-only group by the end of the intervention?",
+      "choices": [
+        "The medication group improved substantially faster, though both groups eventually reached similar outcomes",
+        "The exercise group showed smaller overall gains but experienced fewer relapses during treatment",
+        "Both groups improved at roughly the same rate, with no meaningful difference in how much their depression lifted",
+        "The exercise group showed greater gains in self-esteem but less reduction in core depressive symptoms"
+      ],
+      "answer": 2,
+      "explanation": "At the four-month mark, all three groups had experienced comparable lifts in depression and similar gains in happiness and self-esteem, showing that a structured exercise program matched the antidepressant in effectiveness, and did so without the cost or side effects of medication.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "What does the facial feedback hypothesis predict about deliberately adopting the physical expression of an emotion?",
+      "choices": [
+        "It suppresses authentic emotion by creating a gap between inner and outer experience",
+        "It has no measurable effect because genuine emotion must arise internally first",
+        "It intensifies negative emotions but has little influence on positive ones",
+        "It can cause you to feel the corresponding emotion, at least in mild form"
+      ],
+      "answer": 3,
+      "explanation": "The facial feedback hypothesis holds that your face sends signals back to the brain, so deliberately taking on expressions associated with happiness can actually produce mild versions of that feeling.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "How does the chapter define spirituality, as distinct from religion?",
+      "choices": [
+        "A search for the sacred through meaning larger than the individual self",
+        "A personal moral code that guides behavior without requiring belief in God",
+        "Regular attendance at formal religious services combined with private prayer",
+        "A belief in an afterlife that gives present suffering a higher purpose"
+      ],
+      "answer": 0,
+      "explanation": "The chapter defines spirituality as a search for the sacred, meaning a search for meaning through something larger than oneself, a concept the author labels self-transcendence, which can occur outside formal religious institutions.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "A study of healthy workers who completed an eight-week mindfulness meditation program found changes in brain activity. What specifically changed, and why did researchers consider it meaningful?",
+      "choices": [
+        "Activity in the right prefrontal cortex increased, indicating stronger emotional regulation",
+        "Activity shifted toward greater left prefrontal cortex activation relative to the right, a pattern linked to happiness and positive approach",
+        "Overall prefrontal activity declined, reflecting a calmer and less reactive nervous system",
+        "Activity in the amygdala decreased sharply, explaining the reduction in anxiety"
+      ],
+      "answer": 1,
+      "explanation": "Greater left prefrontal cortex activation relative to the right is a brain signature associated with happy, approach-oriented individuals, so finding this shift in meditators directly linked the practice to well-being outcomes.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter identifies two main reasons why religious involvement helped parents cope with the sudden loss of an infant eighteen months after the death. What were those two reasons?",
+      "choices": [
+        "Regular church attendance and a belief that suffering builds character",
+        "Access to professional counseling through the church and reduced financial stress",
+        "Greater social support from the religious community and the ability to find meaning in the loss",
+        "Shared grief rituals with other bereaved families and a belief in reunion after death"
+      ],
+      "answer": 2,
+      "explanation": "The study found that parents active in religious communities benefited from the tangible social support those communities provided and from their capacity to construct some meaning, however elusive, around their child's death.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "According to the chapter, which of the following accurately describes the relationship between exercise and meditation?",
+      "choices": [
+        "They target entirely different systems, so combining them produces greater benefits than either alone",
+        "Meditation is more effective than exercise for mood because it also reduces physiological stress markers",
+        "Exercise is superior to meditation for treating depression but inferior for reducing chronic anxiety",
+        "The two practices often produce identical psychological effects but tend to generate different types of positive emotion"
+      ],
+      "answer": 3,
+      "explanation": "The chapter notes that studies comparing the two activities show similar effects on anxiety and mood-lifting hormones, but exercise tends to produce high-arousal positive emotions such as energy and vigor, while meditation tends to produce low-arousal positive emotions such as serenity and calm.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter describes a study of cancer patients undergoing chemotherapy in which belief in divine control over their illness was associated with better adjustment. What nuance did the patients' own accounts reveal about this sense of divine control?",
+      "choices": [
+        "It was an active, collaborative process involving prayer, faith, and personal effort rather than passive submission",
+        "It only helped patients who had been religious before their diagnosis, not those who turned to faith during treatment",
+        "It provided comfort primarily by reducing fear of death rather than by improving daily functioning",
+        "It worked by shifting attention away from symptoms rather than by changing patients' fundamental beliefs"
+      ],
+      "answer": 0,
+      "explanation": "The patients described using prayer and their own efforts alongside faith to obtain strength from God, reflecting an interactive give-and-take relationship with a higher power rather than a passive surrender to fate.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Which subgroup of people does the chapter indicate benefits most strongly from religiosity in terms of happiness?",
+      "choices": [
+        "Young adults who are navigating major life transitions such as marriage or parenthood",
+        "Older adults, women, African Americans, and North Americans relative to their comparison groups",
+        "People who have experienced serious trauma and are in active recovery",
+        "Those with a college education who engage in critical inquiry alongside their faith"
+      ],
+      "answer": 1,
+      "explanation": "Research cited in the chapter finds that the link between religiosity and happiness is stronger among women compared to men, among African Americans compared to whites, among older adults compared to younger ones, and among North Americans compared to Europeans.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "What does the concept of sanctification involve for people who do not consider themselves religious?",
+      "choices": [
+        "Adopting a meditative prayer practice without affiliating with any formal institution",
+        "Volunteering for charitable causes as a substitute for formal religious community",
+        "Imbuing ordinary aspects of life such as work, children, or relationships with sacred or divine qualities",
+        "Attending services at multiple faith traditions to find the one that resonates most personally"
+      ],
+      "answer": 2,
+      "explanation": "The chapter explains that even nonreligious individuals can experience sanctification by treating everyday elements of life, such as viewing work as a calling or children as blessings, as holding sacred significance, which provides motivation, meaning, and satisfaction.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Six months after the SMILE study ended, which participants were least likely to have relapsed into depression?",
+      "choices": [
+        "Those who had been in the combination group receiving both exercise and medication",
+        "Those who had been taking antidepressant medication, because of its sustained physiological effects",
+        "Those who had received the highest doses of medication during the intervention period",
+        "Those who had been in the exercise-only group, even though the formal program had ended"
+      ],
+      "answer": 3,
+      "explanation": "Follow-up data showed that participants originally assigned to the exercise group had lower relapse rates six months later, suggesting that the sense of personal mastery gained through exercise provided more durable protection against depression than medication did.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "How does the chapter characterize the role that a sense of meaning plays in human well-being?",
+      "choices": [
+        "Meaning helps people feel that they matter, that their efforts are not futile, and that they have a reason to look beyond themselves",
+        "Meaning is primarily useful during crises but has limited relevance in ordinary daily life",
+        "Meaning functions mainly as a coping tool that loses importance once a person stabilizes",
+        "Meaning is most powerful when it is socially shared rather than individually constructed"
+      ],
+      "answer": 0,
+      "explanation": "The chapter describes meaning as essential because it addresses our need to feel that we matter, that suffering and hard work have purpose, and that we have a justification for moral choices such as forgiveness and gratitude, and it also fuels self-worth.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Researchers devised a clever cover story to induce participants to contract either smile-related or frown-related facial muscles without their awareness, then had them evaluate how amusing a set of Far Side cartoons was. What idea was this experiment designed to test?",
+      "choices": [
+        "Whether physical discomfort reduces appreciation for humor",
+        "Whether artificially activating the muscles used for smiling or frowning changes how funny stimuli are perceived",
+        "Whether people who smile more frequently have a higher baseline sense of humor",
+        "Whether concentrating on a manual task suppresses emotional responses to comedy"
+      ],
+      "answer": 1,
+      "explanation": "The study tested the facial feedback hypothesis by covertly placing participants' faces into smile-like or frown-like configurations; those whose muscles were arranged to mimic a smile rated the cartoons as funnier, supporting the idea that facial muscle positions send signals to the brain that shape emotional experience.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter warns that certain religious orientations can harm rather than help well-being. Which pattern is associated with poorer mental and physical health outcomes?",
+      "choices": [
+        "Believing that God has a purpose in all events, including negative ones",
+        "Praying for personal outcomes rather than simply being present with the divine",
+        "Interpreting personal misfortune as divine punishment for sin, accompanied by feelings of guilt and shame",
+        "Participating in religious activities primarily for social community rather than for intrinsic faith"
+      ],
+      "answer": 2,
+      "explanation": "The chapter points out that when people frame hardship as punishment from God and respond with guilt and shame, research links this pattern to elevated rates of depression alongside declines in physical health and overall life quality, representing one of the documented downsides of certain religious orientations.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter describes a study in which clinically depressed patients who had not responded to either drugs or psychotherapy received Botox injections to their frown lines. What did researchers find two months later?",
+      "choices": [
+        "Patients reported reduced social anxiety but showed no change in core depressive symptoms",
+        "Patients who already had some positive social support improved, but isolated patients did not",
+        "Roughly half the patients improved moderately, suggesting Botox is a useful adjunct to other treatments",
+        "Nine of the ten patients were no longer depressed, and the tenth showed significant improvement"
+      ],
+      "answer": 3,
+      "explanation": "The study found a striking result: nine out of ten previously treatment-resistant depressed patients were no longer depressed two months after having their frown-line muscles paralyzed, providing striking support for the facial feedback hypothesis.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "A person pursues religion primarily to gain social status and career connections rather than as a genuine way of life. Based on the chapter's findings, how would this person's happiness outcomes likely compare to someone who practices religion for intrinsic reasons?",
+      "choices": [
+        "The extrinsic practitioner would be less happy, because intrinsic religious motivation is more strongly linked to well-being than instrumental motivation",
+        "The two would be equally happy, because the social benefits of religious participation are the same regardless of motivation",
+        "The extrinsic practitioner would be happier in the short term but less happy long-term as the novelty fades",
+        "The outcome would depend mainly on how large and supportive the specific religious community is, not on motivation"
+      ],
+      "answer": 0,
+      "explanation": "The chapter reports that people who pursue religion as a way of life for its own sake are happier than those who pursue it instrumentally for external rewards like status or career advancement, suggesting motivation matters independently of participation level.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "A friend argues that religious people are happier purely because their congregations provide social support, and that the actual beliefs about God or meaning are irrelevant. How does the chapter respond to this view?",
+      "choices": [
+        "It agrees entirely, concluding that community is the only mechanism that explains the religion-happiness link",
+        "It acknowledges this explanation but argues it is incomplete, pointing to personal relationships with God and the role of meaning-making as additional distinct mechanisms",
+        "It dismisses the social explanation as too narrow and argues that theological beliefs are the primary driver",
+        "It states that the social and belief-based mechanisms are impossible to separate and should be treated as one unified process"
+      ],
+      "answer": 1,
+      "explanation": "The author explicitly says she does not believe the social-support explanation tells the whole story, and she goes on to identify the personal relationship with God and the capacity to find meaning in both ordinary and traumatic events as distinct sources of benefit beyond community alone.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter notes that some people feel progressively better during a bout of exercise while others feel progressively worse, and researchers do not yet fully understand why. What practical advice does the chapter offer to someone who consistently feels bad while exercising?",
+      "choices": [
+        "Stop exercising entirely and substitute a daily meditation practice instead",
+        "Find an activity that genuinely fits your lifestyle and personality, and begin at a low intensity, around 60 percent of your maximum heart rate, to avoid the discouragement that comes from starting too hard",
+        "Push through the discomfort, because the psychological benefits reliably appear once fitness improves after about eleven weeks",
+        "Exercise only in short bursts of ten minutes or less until the negative feelings subside on their own"
+      ],
+      "answer": 1,
+      "explanation": "The chapter advises choosing an activity suited to your personality, resources, and lifestyle and beginning at a low intensity (around 60 percent of maximum heart rate), because starting too hard is a primary reason people feel terrible and quit before gaining any benefit.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter identifies several explanations for why physical activity promotes well-being. Which explanation is explicitly noted as having limited empirical support despite its cultural popularity?",
+      "choices": [
+        "The self-esteem and mastery explanation, because exercise gains are hard to attribute to personal effort",
+        "The social contact explanation, because most people exercise alone rather than with others",
+        "The distraction explanation, because rumination typically resumes immediately after exercise ends",
+        "The endorphin hypothesis, because research does not strongly support the idea that vigorous exercise produces a genuine euphoric high"
+      ],
+      "answer": 3,
+      "explanation": "The chapter explicitly states that there is not a great deal of empirical support for the endorphin hypothesis, despite its widespread popularity, noting that central opioids may reduce discomfort during exertion but likely do not produce an actual euphoric high.",
+      "difficulty": "hard"
+    }
+  ]
 }

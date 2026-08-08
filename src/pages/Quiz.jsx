@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { getQuestions, getQuiz, submitAttempt } from '../lib/api'
+import { useAuth } from '../context/AuthContext'
 import Results from './Results'
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
@@ -8,6 +9,7 @@ const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 export default function Quiz() {
   const { id } = useParams()
   const quizId = Number(id)
+  const { user, loading: authLoading, signIn } = useAuth()
   const [quiz, setQuiz] = useState(null)
   const [questions, setQuestions] = useState(null)
   const [answers, setAnswers] = useState({})
@@ -18,14 +20,15 @@ export default function Quiz() {
   const startedAt = useRef(Date.now())
 
   useEffect(() => {
+    if (!user) return
     let cancelled = false
-    setQuiz(null); setQuestions(null); setAnswers({}); setIndex(0); setOutcome(null)
+    setQuiz(null); setQuestions(null); setAnswers({}); setIndex(0); setOutcome(null); setError(null)
     startedAt.current = Date.now()
     Promise.all([getQuiz(quizId), getQuestions(quizId)])
       .then(([q, qs]) => { if (!cancelled) { setQuiz(q); setQuestions(qs) } })
       .catch((e) => { if (!cancelled) setError(e.message) })
     return () => { cancelled = true }
-  }, [quizId])
+  }, [quizId, user])
 
   const answered = useMemo(() => Object.keys(answers).length, [answers])
   const current = questions?.[index]
@@ -48,6 +51,27 @@ export default function Quiz() {
     setAnswers({}); setIndex(0); setOutcome(null)
     startedAt.current = Date.now()
     window.scrollTo({ top: 0 })
+  }
+
+  if (authLoading) {
+    return <Shell><p className="font-mono text-sm text-muted">Loading</p></Shell>
+  }
+
+  if (!user) {
+    return (
+      <Shell>
+        <p className="eyebrow">Chapter {String(quizId).padStart(2, '0')}</p>
+        <h1 className="font-display font-extrabold text-3xl mt-1">Sign in to take this quiz</h1>
+        <p className="text-muted mt-2">
+          Quizzes are for signed-in players, so every attempt can be graded and saved to the board.
+          Signing in with Google takes a moment.
+        </p>
+        <div className="mt-5 flex flex-wrap gap-3">
+          <button onClick={signIn} className="btn-primary">Sign in with Google</button>
+          <Link to="/" className="btn-quiet">Back to chapters</Link>
+        </div>
+      </Shell>
+    )
   }
 
   if (error && !questions) {

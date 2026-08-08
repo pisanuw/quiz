@@ -1,7 +1,248 @@
 {
   "chapter": 2,
-  "title": "Chapter 2",
-  "blurb": "",
-  "publish": false,
-  "questions": []
+  "title": "How Happy Are You and Why?",
+  "blurb": "Explore how researchers measure happiness, what the pie-chart model reveals about set points, circumstances, and intentional activity, and why so many common beliefs about what makes us happy turn out to be wrong.",
+  "publish": true,
+  "questions": [
+    {
+      "prompt": "According to the pie-chart model of happiness described in this chapter, roughly what percentage of individual differences in happiness is attributed to intentional activities and strategies?",
+      "choices": [
+        "10 percent",
+        "25 percent",
+        "40 percent",
+        "50 percent"
+      ],
+      "answer": 2,
+      "explanation": "The pie chart divides the sources of happiness into three parts: 50 percent from the genetic set point, 10 percent from life circumstances, and 40 percent from intentional activities and strategies.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "What term does the author use to refer to the genetically determined baseline level of happiness that each person tends to return to over time?",
+      "choices": [
+        "Hedonic baseline",
+        "Subjective well-being index",
+        "Emotional equilibrium",
+        "Happiness set point"
+      ],
+      "answer": 3,
+      "explanation": "The chapter uses the term happiness set point to describe the characteristic, genetically rooted level of happiness that people tend to revert to after both positive and negative life events.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "The Subjective Happiness Scale developed by the author contains how many items?",
+      "choices": [
+        "Four",
+        "Ten",
+        "Sixteen",
+        "Twenty"
+      ],
+      "answer": 0,
+      "explanation": "The Subjective Happiness Scale consists of exactly four items, and the final score is calculated by summing those four responses and dividing by four.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "What phenomenon describes the tendency of people to quickly get used to positive changes in their lives, so that those changes stop producing a lasting increase in happiness?",
+      "choices": [
+        "Social comparison",
+        "Negativity bias",
+        "Hedonic adaptation",
+        "Emotional forecasting error"
+      ],
+      "answer": 2,
+      "explanation": "Hedonic adaptation is the process by which people rapidly adjust to changes in their circumstances, whether positive or negative, causing the emotional impact of those changes to fade over time.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "According to research cited in the chapter, what portion of the differences in happiness levels among people is accounted for by life circumstances such as income, marital status, and location?",
+      "choices": [
+        "About 10 percent",
+        "About 25 percent",
+        "About 40 percent",
+        "About 50 percent"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that all life circumstances combined account for roughly 10 percent of individual differences in happiness, far less than most people assume.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "The large German study tracking 25,000 residents found that the happiness boost from getting married and staying married lasted, on average, approximately how long before people returned to their baseline?",
+      "choices": [
+        "About two years",
+        "About six months",
+        "About five years",
+        "The boost was permanent for most participants"
+      ],
+      "answer": 0,
+      "explanation": "The study found that the typical happiness increase following marriage lasted roughly two years, after which people's well-being returned to their pre-marriage set point.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "In the lottery winners study conducted in the 1970s, what was the most notable finding about winners less than a year after receiving their prize?",
+      "choices": [
+        "They reported significantly higher life satisfaction than non-winners",
+        "They reported lower happiness due to the burden of managing wealth",
+        "They reported greater enjoyment of everyday activities than before winning",
+        "They reported the same level of happiness as people who had not won"
+      ],
+      "answer": 3,
+      "explanation": "Less than a year after winning, lottery winners reported happiness levels no higher than those of ordinary people, and they even found less pleasure in ordinary daily activities than the non-winners did.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter describes a study comparing college students in California and the Midwest on life satisfaction. What was the key finding?",
+      "choices": [
+        "Californians were significantly happier overall than midwesterners",
+        "Midwesterners were happier overall because they appreciated good weather when it occurred",
+        "Both groups had similar overall life satisfaction despite differing views on weather",
+        "Californians scored lower on satisfaction with outdoor activities than midwesterners"
+      ],
+      "answer": 2,
+      "explanation": "Despite midwesterners being much less happy with their weather and certain local conditions, overall life satisfaction was essentially the same in both groups, illustrating that specific circumstances rarely drive global happiness judgments.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "What does the CES-D cutoff score of 16 signify?",
+      "choices": [
+        "The threshold used to distinguish depressed from non-depressed individuals in the general population",
+        "The score above which someone qualifies as moderately happy",
+        "The score at which a person should begin medication rather than therapy",
+        "The minimum score needed to participate in a clinical happiness program"
+      ],
+      "answer": 0,
+      "explanation": "A CES-D score of 16 or higher is the cutoff psychologists use to classify someone as depressed when screening in the general, non-clinical population.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "In the happiness twins study at the University of Minnesota, researchers found that knowing the happiness level of an identical twin was a better predictor of someone's current happiness than which of the following?",
+      "choices": [
+        "Knowing the person's income and occupation together",
+        "Knowing whether the person had experienced a major positive life event recently",
+        "All the facts and life events of that person's own biography",
+        "Knowing the person's CES-D depression score"
+      ],
+      "answer": 2,
+      "explanation": "The study showed that an identical twin's happiness level, even assessed ten years earlier, predicted a person's current happiness far better than all the biographical details of that person's own life combined.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter's pie chart divides the sources of happiness into three slices. Which combination correctly names all three?",
+      "choices": [
+        "Personality traits, life events, and daily habits",
+        "Childhood experiences, current relationships, and personal goals",
+        "Biology, culture, and conscious choice",
+        "Genetic set point, life circumstances, and intentional activities"
+      ],
+      "answer": 3,
+      "explanation": "The three components are the genetic set point (50 percent), life circumstances (10 percent), and intentional activities and strategies (40 percent).",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "What is the average Subjective Happiness Scale score range reported for working adults and retirees, based on the data presented in the chapter?",
+      "choices": [
+        "Around 3.5 to 4.0",
+        "Around 4.5 to 5.0",
+        "Around 5.0 to 5.6",
+        "Around 6.0 to 6.5"
+      ],
+      "answer": 2,
+      "explanation": "The chapter notes that college students average slightly below 5, while working adults and retirees average around 5.6, making the 5.0 to 5.6 range characteristic of non-student adults.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The example of Markus and Roland in the German marriage study is used primarily to illustrate which point?",
+      "choices": [
+        "That marriage always produces the same happiness boost regardless of attitude",
+        "That people with higher set points benefit more from marriage than those with lower ones",
+        "That actively working against adaptation can help sustain a happiness gain over time",
+        "That the first two years of marriage are universally the least happy"
+      ],
+      "answer": 2,
+      "explanation": "Markus maintained his marriage-related happiness by consciously and effortfully nurturing the relationship, demonstrating that intentional activity can slow or resist the hedonic adaptation that would otherwise erase the happiness boost.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "When research participants with kidney disease wore PalmPilots that beeped them at random intervals, what did the mood data reveal compared to healthy controls?",
+      "choices": [
+        "Dialysis patients and healthy participants reported similar average moods",
+        "Dialysis patients reported significantly lower average moods than healthy participants",
+        "Healthy participants underestimated how unhappy dialysis patients actually were",
+        "Dialysis patients reported higher moods only on days they did not undergo treatment"
+      ],
+      "answer": 0,
+      "explanation": "The experience-sampling study found that dialysis patients reported moment-to-moment moods just as positive as those of healthy controls, demonstrating a powerful capacity to adapt even to serious chronic illness.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Why does the chapter argue that materialism is linked to unhappiness rather than simply being neutral?",
+      "choices": [
+        "Because wealthy individuals must spend more time managing their assets",
+        "Because earning money requires sacrificing family relationships",
+        "Because materialistic goals distract people from relationships and meaning, and materialists hold unrealistically high expectations of what possessions can deliver",
+        "Because expensive items require constant maintenance that creates stress"
+      ],
+      "answer": 2,
+      "explanation": "The chapter identifies two main reasons: materialism draws attention away from richer sources of meaning like relationships and community, and materialists typically expect far more emotional benefit from possessions than those possessions actually provide.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter cites the New Zealand study on the 5-HTTLPR gene and depression. What was the critical finding about people who carried the short, unfavorable allele of that gene?",
+      "choices": [
+        "They became depressed regardless of whether they experienced stress",
+        "They became depressed only when exposed to significant stress, not simply by carrying the gene",
+        "They were protected from depression even under high stress if they exercised regularly",
+        "They showed no elevated depression risk compared to those with the long allele"
+      ],
+      "answer": 1,
+      "explanation": "Carrying the short allele of the 5-HTTLPR gene raised the risk of depression only when combined with stressful life experiences. The gene had to be activated by an environmental trigger, showing that genetic predispositions are not destiny.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter compares trying to raise happiness through intentional activity to changing one's eye color with tinted contacts. What is the core logical point this analogy is meant to convey?",
+      "choices": [
+        "Intentional activities can shift one's experienced happiness level without altering the underlying genetic set point",
+        "Circumstantial changes, like contacts, are superficial and therefore worthless",
+        "Both eye color and happiness set points can be permanently altered through the right interventions",
+        "Contacts and intentional activities both require professional guidance to be effective"
+      ],
+      "answer": 0,
+      "explanation": "The analogy communicates that just as contacts change the apparent color of one's eyes without changing the actual eye color, intentional activities can raise one's day-to-day happiness level without changing the genetically fixed set point.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "In Ed Diener's laboratory attractiveness studies, participants who wore shower caps and lab coats or placed their faces through a cardboard cutout were used to test which specific hypothesis?",
+      "choices": [
+        "Whether happy people maintain positive self-assessments even when they look ridiculous",
+        "Whether objective physical attractiveness, stripped of styling cues, correlates with happiness",
+        "Whether judges rate emotional expressions as more important than physical features",
+        "Whether self-reported attractiveness declines when social cues are removed"
+      ],
+      "answer": 1,
+      "explanation": "The elaborate unadorned condition was designed to separate objective physical features from grooming and styling, so that judges could rate attractiveness without being influenced by clothing, makeup, or hairstyle, testing whether inherent physical appearance correlates with happiness.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter argues that humans are fortunate to possess the capacity for hedonic adaptation. Which scenario best illustrates the beneficial side of this same mechanism that normally works against sustained happiness?",
+      "choices": [
+        "A person stops noticing how nice their new car is after a few months",
+        "A person who becomes paralyzed gradually recovers much of their former sense of well-being",
+        "A lottery winner returns to their baseline happiness about a year after winning",
+        "A person forgets why they wanted a pay raise once they receive it"
+      ],
+      "answer": 1,
+      "explanation": "The chapter explicitly frames adaptation to disability and serious illness as the positive side of hedonic adaptation: the same mechanism that erodes gains from good events also helps people recover emotionally from devastating ones.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "Someone argues: since half of all variation in personal happiness is rooted in genetics and that genetic baseline cannot be changed, no one can realistically raise their happiness beyond that fixed ceiling. Which response best captures how the chapter counters this reasoning?",
+      "choices": [
+        "The chapter suggests the genetic contribution to happiness is probably below 50 percent, so the ceiling is not as restrictive as claimed",
+        "The chapter argues that sustained positive thinking can gradually shift a person's genetically fixed baseline upward",
+        "The chapter argues that intentional activities can silence genes tied to the baseline, effectively nullifying its influence",
+        "The chapter argues that the genetic baseline does not cap total happiness gain because intentional activity draws on a separate 40 percent portion, and genetic predispositions only fully express themselves under matching environmental conditions"
+      ],
+      "answer": 3,
+      "explanation": "The chapter distinguishes between the genetic baseline itself, which is fixed, and the conditions required for those genes to fully express. Intentional activities draw on a distinct 40 percent slice of the happiness pie, so the fixedness of the genetic portion does not impose a ceiling on how much overall happiness a person can achieve.",
+      "difficulty": "hard"
+    }
+  ]
 }

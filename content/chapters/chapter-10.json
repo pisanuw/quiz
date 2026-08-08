@@ -1,7 +1,248 @@
 {
   "chapter": 10,
-  "title": "Chapter 10",
-  "blurb": "",
-  "publish": false,
-  "questions": []
+  "title": "The Five Hows Behind Sustainable Happiness",
+  "blurb": "Test your understanding of the five key mechanisms that make happiness strategies work over the long term, including the roles of positive emotion, timing and variety, social support, motivated effort, and habit formation.",
+  "publish": true,
+  "questions": [
+    {
+      "prompt": "According to Chapter 10, what is the First How behind sustainable happiness?",
+      "choices": [
+        "Generating frequent positive emotions",
+        "Developing strong social connections",
+        "Building consistent daily habits",
+        "Committing effort over a long period"
+      ],
+      "answer": 0,
+      "explanation": "The First How is positive emotion. Happiness activities sustain well-being primarily by producing a steady stream of positive feelings such as joy, contentment, curiosity, and enthusiasm.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "What does the Second How of sustainable happiness address?",
+      "choices": [
+        "Finding the right social support network",
+        "Choosing activities that match your personality",
+        "Setting realistic long-term goals",
+        "Optimal timing and variety in practicing happiness activities"
+      ],
+      "answer": 3,
+      "explanation": "The Second How focuses on timing and variety. Adapting when and how often you practice a happiness activity, and varying the way you do it, keeps the activity fresh and prevents adaptation from eroding its benefits.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "What is the Third How behind sustainable happiness described in this chapter?",
+      "choices": [
+        "Habit formation through repetition",
+        "Social support from others",
+        "Intrinsic motivation and personal commitment",
+        "Exposure to meaningful positive experiences"
+      ],
+      "answer": 1,
+      "explanation": "The Third How is social support. Help, encouragement, and validation from friends, family, or peers plays a critical role in helping people persist in their happiness-enhancing efforts.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "According to the chapter, what is the Fifth How behind sustainable happiness?",
+      "choices": [
+        "Frequent reflection on past successes",
+        "Maintaining a positive social environment",
+        "Turning happiness behaviors into automatic habits",
+        "Cultivating optimism about the future"
+      ],
+      "answer": 2,
+      "explanation": "The Fifth How is habit. When happiness activities are repeated enough to become automatic, the effort required to maintain them diminishes significantly, making long-term well-being more achievable.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "Barbara Fredrickson's work, referenced in this chapter, argues that frequent positive emotions do more than simply feel good. What additional effect does she highlight?",
+      "choices": [
+        "They reduce the intensity of future negative emotions permanently",
+        "They trigger the release of dopamine, reinforcing happiness habits",
+        "They eliminate the need for social support over time",
+        "They broaden horizons and build social, physical, and intellectual resources"
+      ],
+      "answer": 3,
+      "explanation": "Fredrickson argues that positive emotions broaden awareness and build lasting personal resources, setting off upward spirals that make people more capable, creative, and connected over time.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "The chapter describes 'upward spirals' as one reason positive emotions matter. Which of the following best illustrates the upward spiral concept?",
+      "choices": [
+        "A person feels anxious, which motivates them to work harder and eventually succeed",
+        "Feeling invigorated after exercise boosts creativity, which strengthens a relationship, which builds gratitude and resilience",
+        "A positive mood leads a person to set ambitious goals that prove too difficult, producing frustration",
+        "Social support from friends raises motivation, which in turn reduces the need for positive emotions"
+      ],
+      "answer": 1,
+      "explanation": "An upward spiral occurs when one positive experience builds on another. The chapter illustrates this with the chain: exercise produces energy, which fuels creativity, which improves relationships, which builds gratitude and resilience.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter warns about a specific mistake people make when spending a financial windfall. What does research suggest is the wiser approach to maximize happiness from that money?",
+      "choices": [
+        "Save the money to reduce financial stress rather than spend it",
+        "Invest in a single high-quality purchase that will last many years",
+        "Spread the money across many smaller pleasures occurring regularly over time",
+        "Donate the money to charity to gain a lasting sense of meaning"
+      ],
+      "answer": 2,
+      "explanation": "People adapt quickly to large single purchases but not as readily to repeated smaller pleasures. Frequent modest enjoyments generate more ongoing happiness than one dramatic expenditure.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter's discussion of depression identifies a particular deficit that distinguishes it from ordinary sadness. What is that deficit?",
+      "choices": [
+        "A shortage of positive emotions rather than only an overabundance of negative ones",
+        "An excess of negative emotions that crowd out neutral feelings",
+        "An inability to concentrate on positive future goals",
+        "A reduced sensitivity to social support from others"
+      ],
+      "answer": 0,
+      "explanation": "Depression is characterized less by an abundance of negative emotions and more by a pronounced emptiness of positive emotions. The depressed person struggles to experience joy, curiosity, and enthusiasm.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "A study mentioned in this chapter found that practicing gratitude or optimism for eight weeks led participants to interpret ordinary daily events more positively. What mechanism does this illustrate?",
+      "choices": [
+        "How positive emotions undo cardiovascular stress responses",
+        "How social support accelerates adaptation to new routines",
+        "How habit formation reduces the conscious effort required for happiness activities",
+        "How happiness activities foster positive thoughts that then improve well-being"
+      ],
+      "answer": 3,
+      "explanation": "The study shows that happiness activities counter negative thinking patterns. Participants came to see routine events as more satisfying, demonstrating that the activities generate positive thoughts that, in turn, lift well-being.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter contrasts two goals related to depression: 'remission' and something beyond it. What does the author argue that remission alone fails to achieve?",
+      "choices": [
+        "It does not eliminate the biological causes of depression",
+        "It leaves people free of symptoms but not genuinely happy or flourishing",
+        "It requires ongoing medication with no endpoint",
+        "It addresses negative thoughts but ignores negative experiences"
+      ],
+      "answer": 1,
+      "explanation": "Remission means the absence of depressive symptoms, not the presence of happiness. The author argues that removing suffering returns a person only to a neutral or 'languishing' state, not to genuine flourishing.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "A key study on social support and weight loss found that participants who joined the program with friends or family had markedly better outcomes. What was one striking difference in completion rates?",
+      "choices": [
+        "Socially supported participants lost weight faster but regained it sooner",
+        "Lone participants reported higher motivation but lower long-term adherence",
+        "Socially supported participants completed the program at 95 percent versus 76 percent for those alone",
+        "Socially supported participants needed fewer behavioral changes to achieve results"
+      ],
+      "answer": 2,
+      "explanation": "The study found that those with social support completed the program at a rate of 95 percent, compared with 76 percent for those who participated alone, and they also maintained more of their weight loss afterward.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter compares happiness activities to pharmaceutical drugs in an important respect. What parallel does researcher Robert Rosenthal draw?",
+      "choices": [
+        "Both work only while being actively used and lose effect once discontinued",
+        "Both require a professional to select the correct type and dosage",
+        "Both carry side effects that diminish effectiveness over time",
+        "Both produce stronger results when combined with social support"
+      ],
+      "answer": 0,
+      "explanation": "Rosenthal pointed out that lifesaving medications such as insulin also stop working the moment a person stops taking them, yet nobody calls those drugs weak. The same logic applies to happiness activities: continued practice is essential.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter describes two distinct types of habit related to happiness activities. Which pairing correctly distinguishes the beneficial habit from the problematic one?",
+      "choices": [
+        "Beneficial: performing the same steps consistently; Problematic: varying the activity too frequently",
+        "Beneficial: doing an activity automatically; Problematic: doing the activity only when highly motivated",
+        "Beneficial: initiating the activity automatically; Problematic: performing it identically each time",
+        "Beneficial: relying on external cues; Problematic: relying on internal motivation"
+      ],
+      "answer": 2,
+      "explanation": "The good habit is automatically initiating a happiness-boosting behavior. The harmful habit is doing that activity in the exact same way every time, which leads to boredom and adaptation, stripping it of its happiness-boosting potential.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Stanley Schachter's informal research challenged the high recidivism rates typically reported in formal treatment studies. What key explanation did he offer for the discrepancy?",
+      "choices": [
+        "Formal studies use stricter definitions of success, making outcomes appear worse",
+        "Informal settings create stronger social support than clinical environments",
+        "People who relapse rarely report their failures, inflating apparent success rates",
+        "Treatment studies capture only the hardest cases, while successful self-changers never seek treatment"
+      ],
+      "answer": 3,
+      "explanation": "Schachter concluded that formal treatment studies are biased because they recruit people who have already struggled and failed on their own. Those who successfully change themselves never enter treatment programs, so they are invisible in the data.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter argues that the source of a positive emotion matters for its sustainability. How does a 'hard-won' happiness activity differ from a 'guilty pleasure' in this respect?",
+      "choices": [
+        "Hard-won activities produce more intense immediate pleasure than guilty pleasures",
+        "Hard-won activities are self-reinforcing and renewable because you created them through effort",
+        "Guilty pleasures activate more brain regions, making them feel more satisfying",
+        "Hard-won activities eliminate negative emotions more effectively than guilty pleasures"
+      ],
+      "answer": 1,
+      "explanation": "When the source of positive emotion is your own sustained effort, you have the capability and knowledge to recreate it. Guilty pleasures fade quickly and can leave negative feelings, whereas effort-based happiness is self-renewing.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Consider someone who practices gratitude every morning by writing three identical blessings in the same journal at the same time each day, never changing the content or format. Based on the chapter's discussion of timing and variety, what outcome is most likely?",
+      "choices": [
+        "The consistency will build a strong automatic habit and produce sustained happiness gains",
+        "Social support will be needed to prevent the routine from becoming counterproductive",
+        "The fixed timing will counteract adaptation, keeping the activity effective indefinitely",
+        "The person will adapt to the routine and eventually extract little happiness benefit from it"
+      ],
+      "answer": 3,
+      "explanation": "Repeating the same activity in the same way each time leads to adaptation, which erodes its happiness-boosting power. Variety in how an activity is performed is essential to keeping it fresh and meaningful.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter explicitly rejects a false dichotomy. What is that dichotomy, and why does the author reject it?",
+      "choices": [
+        "The dichotomy between hedonistic pleasure and meaningful gratification: the author argues positive emotion is positive emotion regardless of its source",
+        "The dichotomy between effort and talent: the author argues both are necessary for lasting happiness",
+        "The dichotomy between individual change and circumstantial change: the author argues only intentional activity produces lasting gains",
+        "The dichotomy between remission and flourishing: the author argues both are equally valid endpoints of treatment"
+      ],
+      "answer": 0,
+      "explanation": "The author rejects the idea that trivial pleasures and meaningful experiences are fundamentally different. Any genuine positive emotion, whether from a silly TV show or a spiritual moment, carries the same psychological benefits.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter describes how certain Orthodox Jewish marital practices can serve as an unintentional model for sustaining happiness. What principle from the Second How does this example illustrate?",
+      "choices": [
+        "Social support from a committed partner amplifies the effects of any happiness strategy",
+        "Structured periods of separation and reunion use timing to prevent adaptation and sustain positive feeling",
+        "Religious rituals create positive emotions through meaning rather than through direct pleasure",
+        "Habit formation is most powerful when it is embedded in long-standing cultural traditions"
+      ],
+      "answer": 1,
+      "explanation": "The chapter uses this example to show that enforced separation followed by reunion can prevent adaptation to intimacy, maintaining passion over time. This parallels the idea of strategically timing happiness activities to preserve their freshness.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "A person has high motivation to become happier and begins practicing optimism daily. After two months the gains plateau and she feels discouraged. Based on the chapter's discussion of all five hows, which combination of adjustments is most likely to restore momentum?",
+      "choices": [
+        "Increase the frequency of the optimism exercise and reduce the variety to build a stronger routine",
+        "Focus on removing negative emotions first before returning to the optimism strategy",
+        "Add variety to how she practices optimism, seek encouragement from a supportive person, and recommit deliberately",
+        "Switch entirely to a different happiness activity and recruit a friend to practice it alongside her"
+      ],
+      "answer": 2,
+      "explanation": "The plateau suggests adaptation from lack of variety (Second How) and possibly waning effort (Fourth How). Adding variety to the practice, enlisting social support (Third How), and renewing commitment directly addresses the mechanisms responsible for the stall.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter notes that naturally very happy people seem to have inherited good habits such as gratitude and optimism without consciously trying. What is the author's key message for people who did not inherit these tendencies?",
+      "choices": [
+        "Their genetic set point limits how much they can improve, so modest goals are more realistic",
+        "Intentional activities can compensate for low set points only during favorable life circumstances",
+        "They must rely on social support more heavily than naturally happy people do",
+        "With time and determination they can deliberately build the same habits for themselves"
+      ],
+      "answer": 3,
+      "explanation": "The author's conclusion is hopeful: even without an inherited disposition toward positive habits, deliberate and sustained practice can produce the same automatic, effortless happiness behaviors that naturally happy people enjoy.",
+      "difficulty": "hard"
+    }
+  ]
 }

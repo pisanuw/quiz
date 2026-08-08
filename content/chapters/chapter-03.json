@@ -1,7 +1,248 @@
 {
   "chapter": 3,
-  "title": "Chapter 3",
-  "blurb": "",
-  "publish": false,
-  "questions": []
+  "title": "How to Find Happiness Activities That Fit Your Interests, Your Values, and Your Needs",
+  "blurb": "This quiz covers the concept of person-activity fit, the three ways strategies can match an individual, how the fit diagnostic works, and why choosing the right happiness strategy matters more than effort alone.",
+  "publish": true,
+  "questions": [
+    {
+      "prompt": "What share of a person's happiness, according to the chapter's opening framework, comes from deliberate, chosen activities?",
+      "choices": [
+        "40 percent",
+        "25 percent",
+        "10 percent",
+        "60 percent"
+      ],
+      "answer": 0,
+      "explanation": "The chapter frames 40 percent of happiness as the portion attributable to voluntary, intentional activity, which is exactly why selecting the right strategy for each person carries such weight.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "What term does the chapter use to describe the idea of matching a happiness strategy to a specific individual?",
+      "choices": [
+        "Nomothetic alignment",
+        "Behavioral congruence",
+        "Motivational harmony",
+        "Person-activity fit"
+      ],
+      "answer": 3,
+      "explanation": "The chapter uses the phrase 'person-activity fit' to describe choosing happiness strategies that align with an individual's unique personality, values, and lifestyle.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "How many happiness activities does the Person-Activity Fit Diagnostic evaluate?",
+      "choices": [
+        "Six",
+        "Eight",
+        "Ten",
+        "Twelve"
+      ],
+      "answer": 3,
+      "explanation": "The diagnostic presents exactly twelve evidence-based happiness activities for the reader to rate, covering a wide variety so every individual can find a set that fits.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "The chapter identifies three ways that a happiness strategy can fit a person. Which of the following is one of those three ways?",
+      "choices": [
+        "Fit with the source of your unhappiness",
+        "Fit with your financial resources",
+        "Fit with your cultural background",
+        "Fit with your physical health status"
+      ],
+      "answer": 0,
+      "explanation": "One of the three types of fit described is fit with the source of unhappiness, which means targeting a strategy at whatever specific problem or weakness underlies a person's dissatisfaction.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "After completing the Person-Activity Fit Diagnostic, how many top-fitting activities does a person identify to begin with?",
+      "choices": [
+        "One",
+        "Two",
+        "Four",
+        "Six"
+      ],
+      "answer": 2,
+      "explanation": "The diagnostic is designed to produce a short list of four activities with the highest fit scores, which serve as the starting point for a person's happiness-increasing program.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "A person who tends to overthink problems and dwell excessively on negative events would be best served, according to the chapter's fit framework, by which approach?",
+      "choices": [
+        "Choosing any activity at random to break old habits",
+        "Selecting a strategy that addresses that specific source of unhappiness",
+        "Focusing on strengthening an existing talent rather than fixing a weakness",
+        "Picking the activity that fits their lifestyle schedule most conveniently"
+      ],
+      "answer": 1,
+      "explanation": "The chapter explains that fit with the source of unhappiness means directing a strategy at a person's particular weakness or problem, so a chronic overthinker would benefit from a strategy targeting overthinking.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter argues that person-activity fit does not have to be based only on repairing weaknesses. What is the alternative approach it describes?",
+      "choices": [
+        "Building on existing strengths, talents, or goals",
+        "Selecting strategies recommended by close friends or family",
+        "Choosing activities that are easiest to complete quickly",
+        "Avoiding any activity that feels emotionally uncomfortable"
+      ],
+      "answer": 0,
+      "explanation": "The chapter presents 'fit with your strengths' as a second path, where a person identifies their existing talents or aspirations and chooses activities that capitalize on those rather than fixing deficits.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "In the fit diagnostic, the GUILTY rating captures the idea that a person would continue an activity because they would feel ashamed or anxious if they stopped. How does a high GUILTY score affect the overall fit calculation?",
+      "choices": [
+        "It raises the fit score because any motivation is positive",
+        "It has no effect since only NATURAL and ENJOY matter",
+        "It lowers the fit score because external pressure reduces genuine fit",
+        "It doubles the fit score if combined with a high SITUATION rating"
+      ],
+      "answer": 2,
+      "explanation": "The fit formula subtracts the average of GUILTY and SITUATION from the average of NATURAL, ENJOY, and VALUE, so activities driven by guilt or pressure receive lower fit scores.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "What concept, developed by Ken Sheldon and colleagues, does the chapter say the fit score largely measures?",
+      "choices": [
+        "Hedonic adaptation resistance",
+        "Self-determined motivation",
+        "Intrinsic reward sensitivity",
+        "Autonomous goal regulation"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states that the fit score is largely a measure of self-determined motivation, meaning commitment to a goal that comes from genuine interest and deeply held values rather than external pressure.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter mentions that some happiness activities seem corny or overly sentimental to certain people. What is the recommended response when a person has this reaction?",
+      "choices": [
+        "Recognize that other activities may fit better, but also that even unappealing ones can become genuine over time",
+        "Push through the discomfort immediately regardless of personal fit",
+        "Dismiss those activities entirely and never return to them",
+        "Rate the activity with a maximum GUILTY score to reflect the discomfort"
+      ],
+      "answer": 0,
+      "explanation": "The chapter advises that people who find certain activities corny can choose better-fitting alternatives, but it also notes that even the most off-putting activities can eventually be practiced sincerely and from the heart.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "A research study described in the chapter randomly assigned participants to practice either gratitude or optimism for two months. What did participants who were assigned the activity that fit them best show?",
+      "choices": [
+        "Higher fit scores than those who chose their own activity",
+        "Greater likelihood of continuing the practice after the study ended",
+        "Lower happiness gains but stronger habit formation",
+        "No measurable difference compared to mismatched participants"
+      ],
+      "answer": 1,
+      "explanation": "The study found that participants lucky enough to receive a matched activity were more likely to find it natural and enjoyable, to keep doing it after the study, and to gain greater happiness from it.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter compares finding the right happiness strategy to finding the right diet. What key insight does this analogy highlight?",
+      "choices": [
+        "Happiness strategies work best when followed for exactly thirty days",
+        "Physical and emotional health are regulated by the same biological mechanisms",
+        "Diet programs are more scientifically valid than happiness programs",
+        "No single approach works universally; good fit to individual needs is essential"
+      ],
+      "answer": 3,
+      "explanation": "Just as no single diet works for everyone, the chapter argues there is no universal happiness strategy; what matters is matching the approach to the individual's unique characteristics and lifestyle.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "According to the chapter, why does it present exactly twelve happiness activities rather than fewer?",
+      "choices": [
+        "Twelve activities balance equally across the four types of fit",
+        "Scientific research only supports twelve distinct happiness strategies",
+        "A wider range ensures that every individual can find a set that suits them",
+        "Twelve is the maximum number a person can realistically memorize"
+      ],
+      "answer": 2,
+      "explanation": "The chapter explains that twelve activities were chosen to provide enough variety so that every individual, regardless of personality or lifestyle, can identify a set that fits them well.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter notes that happiness-enhancing activities sometimes go together. What practical suggestion does the author make based on this finding?",
+      "choices": [
+        "Always practice all twelve activities simultaneously for maximum benefit",
+        "After succeeding with a top-fitting activity, consider complementary activities that research suggests pair well with it",
+        "Replace the four best-fitting activities with complementary-cluster ones immediately",
+        "Ignore the fit diagnostic and rely solely on which activities cluster together"
+      ],
+      "answer": 1,
+      "explanation": "The chapter suggests that once a person is making progress with a well-fitting activity, they can expand by trying complementary activities that tend to go together with it, as indicated by the appendix grid.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter states that one chief reason people fail in efforts to become happier is 'unfortunate choosing.' Which of the following best captures what that phrase means?",
+      "choices": [
+        "Spending too little money on self-improvement resources",
+        "Relying on friends' advice rather than scientific research",
+        "Picking a strategy that is inherently ineffective or poorly matched to oneself",
+        "Starting too many activities at once without any guidance"
+      ],
+      "answer": 2,
+      "explanation": "Unfortunate choosing refers to selecting a strategy that is either inherently fruitless, such as chasing wealth or approval, or simply not well-suited to that particular person's nature and circumstances.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "A person who already has a satisfying social life but finds work unfulfilling applies the 'fit with lifestyle' principle. Which of the following would best illustrate that principle in action?",
+      "choices": [
+        "Choosing nurturing relationships as a strategy to address a weak area",
+        "Skipping all twelve activities because social life is already strong",
+        "Practicing forgiveness to resolve interpersonal conflicts at work",
+        "Selecting goal-setting or flow activities to increase engagement at work"
+      ],
+      "answer": 3,
+      "explanation": "Fit with lifestyle means tailoring strategy selection to current life circumstances; since work is the problem area, activities like pursuing significant goals or increasing flow at work are the logical match.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "Chris Peterson, one of the founders of positive psychology, initially tried writing gratitude letters and found the exercise did not boost his happiness. What does his experience illustrate about person-activity fit?",
+      "choices": [
+        "Fit requires not just choosing the right activity but also engaging with it authentically rather than going through the motions",
+        "Gratitude letters are an ineffective strategy for most people",
+        "A high VALUE rating on the fit diagnostic guarantees that an activity will succeed",
+        "Positive psychology researchers are immune to the benefits of happiness activities"
+      ],
+      "answer": 0,
+      "explanation": "Peterson's experience shows that even a well-regarded activity fails when done insincerely; genuine, heartfelt engagement, not just activity selection, is necessary for a strategy to produce happiness gains.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter draws an analogy to people who successfully maintained weight loss for at least five years. What does that research finding suggest about pursuing happiness activities?",
+      "choices": [
+        "Success rates for weight loss and happiness programs are statistically identical",
+        "Lasting change often requires multiple attempts and trying different approaches before finding what works",
+        "People should commit to a single strategy for at least five years before evaluating results",
+        "Physical fitness routines directly transfer to emotional well-being habits"
+      ],
+      "answer": 1,
+      "explanation": "The weight-loss analogy illustrates that fundamental change, whether physical or emotional, commonly takes several attempts with different approaches, so persistence and willingness to try alternatives are crucial.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "A person scores high on NATURAL and ENJOY for an activity but also very high on SITUATION, meaning an outside authority is pressing them to do it. How should this person interpret their fit score?",
+      "choices": [
+        "The SITUATION rating cancels out NATURAL entirely, making the fit score automatically zero",
+        "The person should immediately drop the activity because any external pressure invalidates genuine fit",
+        "The elevated SITUATION score will reduce the fit score, signaling a less-than-ideal motivation mix even if intrinsic interest is present",
+        "The high NATURAL and ENJOY ratings dominate, so the activity is an excellent fit regardless of external pressure"
+      ],
+      "answer": 2,
+      "explanation": "Because the formula subtracts external pressure ratings from intrinsic ones, a high SITUATION score pulls the fit score down even when NATURAL and ENJOY are strong, indicating that reliance on outside pressure weakens overall fit.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter claims there is a kind of 'secret' to growing happier. What does that secret turn out to be, and why does it matter more than effort alone?",
+      "choices": [
+        "Effort is biologically limited and cannot be sustained beyond two months",
+        "The twelve activities are so simple that effort plays no meaningful role",
+        "Willpower research shows it depletes too quickly to matter for emotional well-being",
+        "Identifying which happiness strategies genuinely fit you matters more than hard work on a poorly matched one"
+      ],
+      "answer": 3,
+      "explanation": "The author argues that good fit enables sustained, self-determined motivation, while a poor match means effort is wasted on a strategy that will not take hold, no matter how hard the person tries.",
+      "difficulty": "hard"
+    }
+  ]
 }

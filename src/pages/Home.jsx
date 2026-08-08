@@ -51,7 +51,7 @@ export default function Home() {
 
         <p className="mt-8 text-lg text-muted max-w-reading">
           Work through Sonja Lyubomirsky&rsquo;s book a chapter at a time. Twenty questions each,
-          graded instantly. Anyone can play. Sign in with Google if you want your best scores on the
+          graded instantly. Sign in with Google to take a quiz and put your best scores on the
           board.
         </p>
       </section>
@@ -67,7 +67,7 @@ export default function Home() {
           <h2 className="eyebrow">Chapters</h2>
           {!user ? (
             <button onClick={signIn} className="eyebrow text-evergreen underline underline-offset-4">
-              Sign in to save scores
+              Sign in to play
             </button>
           ) : null}
         </div>

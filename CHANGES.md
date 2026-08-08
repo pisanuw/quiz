@@ -1,5 +1,11 @@
 # CHANGES
 
+## Unreleased
+
+- All 200 quiz questions written: 10 chapters, 20 each (5 easy, 10 medium, 5 hard)
+- Sign-in now required to take a quiz (migration 20260808130000_require_signin)
+- Quiz runner gated behind Google sign-in; landing page still lists chapters
+
 ## 0.1.0, 2026-08-08
 
 Initial build.

@@ -1,20 +1,248 @@
 {
   "chapter": 1,
-  "title": "Chapter 1",
-  "blurb": "Placeholder. Replace title, blurb, and questions once the chapter text is in.",
-  "publish": false,
+  "title": "Is It Possible to Become Happier?",
+  "blurb": "This quiz tests your grasp of why circumstances matter less than we think, how the three-part happiness pie chart works, and what the 40 percent of intentional activity means for your ability to build lasting well-being.",
+  "publish": true,
   "questions": [
     {
-      "prompt": "PLACEHOLDER: replace with a real question.",
-      "choices": ["First option", "Second option", "Third option", "Fourth option"],
+      "prompt": "According to the happiness pie chart described in the chapter, what single factor accounts for the largest share of differences in people's happiness levels?",
+      "choices": [
+        "Genetically determined happiness set point",
+        "Life circumstances such as income and marital status",
+        "Intentional daily activities and behaviors",
+        "Social relationships and support networks"
+      ],
       "answer": 0,
-      "explanation": "Shown after grading. Keep it to a sentence or two."
+      "explanation": "The genetically determined set point accounts for 50 percent of the variation in happiness across people, making it the largest slice of the pie by far.",
+      "difficulty": "easy"
     },
     {
-      "prompt": "PLACEHOLDER: a second sample so the seeder has something to chew on.",
-      "choices": ["First option", "Second option", "Third option", "Fourth option"],
+      "prompt": "What percentage of variation in happiness levels does the chapter attribute to life circumstances such as wealth, health, and marital status?",
+      "choices": [
+        "About 25 percent",
+        "About 10 percent",
+        "About 40 percent",
+        "About 50 percent"
+      ],
+      "answer": 1,
+      "explanation": "Life circumstances explain only about 10 percent of the differences in happiness among people, which is why changing your situation alone tends to have a limited and short-lived impact.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "What term does the author use to describe the roughly 40 percent of happiness that is within our deliberate control?",
+      "choices": [
+        "Hedonic baseline",
+        "Circumstantial variance",
+        "Adaptive cognition",
+        "Intentional activity"
+      ],
       "answer": 3,
-      "explanation": "Explanations are optional. Leave the field out if you do not want one."
+      "explanation": "The author calls the roughly 40 percent of happiness that we can influence our intentional activities, meaning the things we choose to do and think each day.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "Martin Seligman's study described in the chapter asked severely depressed participants to perform one daily exercise. What was it?",
+      "choices": [
+        "Record three good things that happened to them that day",
+        "Write a letter of gratitude to someone they admired",
+        "Visualize a positive future outcome for fifteen minutes",
+        "Perform one act of kindness for a stranger"
+      ],
+      "answer": 0,
+      "explanation": "Participants were asked to log on to a website and write down three good things that happened each day. Within fifteen days, most experienced significant relief from severe depression.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "How does the chapter characterize the concept of the happiness set point?",
+      "choices": [
+        "A ceiling on happiness that limits how good a person can ever feel",
+        "A permanent level of happiness fixed at birth that never shifts under any circumstances",
+        "The average happiness a person reports across an entire decade of surveys",
+        "A baseline level of well-being to which people tend to return after major life events"
+      ],
+      "answer": 3,
+      "explanation": "The set point is compared to a weight set point: a baseline people tend to drift back toward even after significant gains or losses, not a ceiling or an absolute lock.",
+      "difficulty": "easy"
+    },
+    {
+      "prompt": "Neil, the former rock star interviewed in the chapter, went from wealth and fame to a modest life on the outskirts of Winnipeg. What did he report about his happiness across that transition?",
+      "choices": [
+        "His happiness improved significantly once he simplified his life",
+        "He was far happier during his peak fame than he realized at the time",
+        "His happiness level stayed essentially the same before and after",
+        "He became happier only after reconnecting with his children"
+      ],
+      "answer": 2,
+      "explanation": "Neil explicitly stated that his happiness level was the same whether he had money and fame or not, illustrating that external circumstances have limited power over lasting well-being.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "Denise underwent extensive cosmetic surgery and initially felt a surge of confidence. What did she ultimately conclude about the surgery's long-term effect on her happiness?",
+      "choices": [
+        "The happiness boost faded and the surgery did not produce lasting well-being",
+        "The surgery produced lasting happiness because her self-image permanently improved",
+        "Physical changes had no immediate effect on her mood, positive or negative",
+        "She regretted the surgery primarily because it strained her marriage"
+      ],
+      "answer": 0,
+      "explanation": "Denise acknowledged the short-term boost but concluded that the makeover was nothing compared to real happiness, confirming that changes in appearance do not translate to lasting well-being.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter argues that people are frequently mistaken about what will make them happy. Which of the following best describes the specific error people make about money?",
+      "choices": [
+        "They underestimate how much money they actually need for basic comfort",
+        "They think money is irrelevant to happiness, when it actually has a moderate lasting effect",
+        "They believe money brings modest happiness for a long time, when it actually brings none at all",
+        "They overestimate both the size and duration of the happiness boost that money provides"
+      ],
+      "answer": 3,
+      "explanation": "A happiness researcher quoted in the chapter points out that people expect wealth to produce a large and enduring boost to their well-being, when in reality the gain is modest and fades quickly.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "A study cited in the chapter compared the happiness of the wealthiest Americans (earning over ten million dollars annually) with that of their office staff and blue-collar workers. What did it find?",
+      "choices": [
+        "Workers in supportive roles reported higher happiness than the wealthy",
+        "The wealthiest group reported only slightly higher happiness than the workers",
+        "The wealthiest group reported dramatically higher happiness than the workers",
+        "The two groups reported virtually identical happiness levels"
+      ],
+      "answer": 1,
+      "explanation": "The study found that the richest Americans reported only slightly greater happiness than the lower-paid workers they employed, underscoring how little wealth moves the happiness needle.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter contrasts two mental framings of happiness. Which framing does the author prefer, and why?",
+      "choices": [
+        "Scheduling happiness, because structured routines produce the most reliable well-being",
+        "Finding happiness, because people must locate the specific conditions that suit them",
+        "Accepting happiness, because resisting the natural flow of emotion is counterproductive",
+        "Creating or constructing happiness, because research shows it is within our power to fashion it"
+      ],
+      "answer": 3,
+      "explanation": "The author rejects the idea of happiness as something to chase or discover and prefers thinking of it as something we create or construct, reflecting research evidence that intentional effort shapes well-being.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "What does the chapter say about the effort required to maintain a happiness-boosting program over time?",
+      "choices": [
+        "The effort is greatest at the start and tends to diminish as behaviors become habitual",
+        "The required effort increases steadily the longer you maintain the program",
+        "The effort stays constant because happiness habits never become truly automatic",
+        "Sustained effort becomes unnecessary once you identify the right strategy for your personality"
+      ],
+      "answer": 0,
+      "explanation": "The chapter explains that effort is greatest when new behaviors feel unnatural, but as they become habitual and self-reinforcing, the required effort diminishes over time.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "According to the chapter, which of the following is listed as a characteristic behavior of the happiest people studied by researchers?",
+      "choices": [
+        "They minimize social obligations to protect personal time and energy",
+        "They focus primarily on eliminating negative emotions before cultivating positive ones",
+        "They commit to lifelong goals and deep personal ambitions",
+        "They avoid dwelling on the past in order to stay focused on future planning"
+      ],
+      "answer": 2,
+      "explanation": "The happiest people in the research were deeply committed to lifelong goals and ambitions, whether fighting fraud, building cabinets, or passing on their values to their children.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "A study cited in the chapter followed college women who expressed genuine joy in their yearbook photos. What long-term outcome was linked to that expressed happiness?",
+      "choices": [
+        "Lower rates of chronic illness measured in middle age",
+        "Higher likelihood of satisfying marriages by age fifty-two",
+        "Higher academic achievement and graduate school enrollment rates",
+        "Greater financial earnings by their mid-thirties"
+      ],
+      "answer": 1,
+      "explanation": "Women who expressed sincere joy in their yearbook photos were more likely to be married by twenty-seven and to report satisfying marriages at fifty-two, illustrating happiness as a cause, not just a result, of good relationships.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The chapter mentions the king of Bhutan chose to measure national progress using GDH rather than GDP. What does GDH represent?",
+      "choices": [
+        "General Democratic Harmony",
+        "Gross Domestic Health",
+        "Gross Domestic Happiness",
+        "Global Development Hierarchy"
+      ],
+      "answer": 2,
+      "explanation": "GDH stands for Gross Domestic Happiness, a measure the king of Bhutan adopted to prioritize citizen well-being over conventional economic output.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "A study cited in the chapter followed college freshmen for sixteen years. What did higher happiness at the start of college predict relative to less happy peers?",
+      "choices": [
+        "Faster promotion rates but similar total lifetime earnings",
+        "Greater income about sixteen years later, even when they started from comparable economic backgrounds",
+        "Higher educational attainment but similar salaries",
+        "Greater social satisfaction but lower job performance"
+      ],
+      "answer": 1,
+      "explanation": "Happy college freshmen earned more money sixteen years later even without starting from a wealthier position, showing that happiness itself can drive financial outcomes rather than being merely a byproduct of them.",
+      "difficulty": "medium"
+    },
+    {
+      "prompt": "The pie chart divides happiness into genetic set point, life circumstances, and intentional activity. Which insight does the chapter offer to explain why the circumstances slice is so surprisingly small?",
+      "choices": [
+        "Circumstances are irrelevant to happiness at any stage of life",
+        "Circumstances only matter for people whose genetic set points fall in the middle range",
+        "People adapt to changed circumstances over time, so the long-term happiness impact is limited",
+        "Circumstances can be changed so easily that their effects dissipate before being felt"
+      ],
+      "answer": 2,
+      "explanation": "The chapter attributes the small circumstances slice to humans' powerful tendency to adapt: positive changes in wealth, appearance, or status produce happiness gains that erode over time as people adjust to their new situation.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "Suppose someone argues: 'Since 50 percent of happiness is genetic, trying to increase happiness is mostly futile.' How does the chapter's framework most directly refute this claim?",
+      "choices": [
+        "By showing that genes can be altered through consistent positive thinking over several years",
+        "By pointing out that 40 percent remains open to influence through intentional activity, which is a substantial and actionable share",
+        "By arguing that the genetic component is actually closer to 30 percent once cultural factors are removed",
+        "By demonstrating that set points shift dramatically after major positive life events"
+      ],
+      "answer": 1,
+      "explanation": "The chapter directly counters genetic fatalism by focusing on the 40 percent attributable to intentional activity, arguing this is a large and practically meaningful domain of influence even though genes establish a baseline.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter states that 54 percent of U.S. adults are moderately mentally healthy yet not flourishing. Which of the following scenarios best matches this description?",
+      "choices": [
+        "A person diagnosed with clinical depression who is actively undergoing treatment",
+        "A person whose self-reported life satisfaction scores are above average on standardized surveys",
+        "A person who functions adequately in daily life but lacks enthusiasm and active engagement with the world",
+        "A person who is consistently joyful but lacks any meaningful long-term goals"
+      ],
+      "answer": 2,
+      "explanation": "The chapter places this group above clinical depression but well below flourishing: they get through daily life without serious impairment yet show little zest or deep involvement in what they do.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "The chapter uses the analogy of a weight set point to illuminate the happiness set point. Which insight does this analogy most precisely convey?",
+      "choices": [
+        "Just as weight is entirely determined by genetics, happiness is also fully predetermined at birth",
+        "Just as crash diets produce permanent weight loss, intensive happiness programs produce permanent emotional elevation",
+        "Just as daily fluctuations in weight are meaningless noise, daily fluctuations in mood carry no useful information",
+        "Just as permanent weight change requires ongoing effort and defaults back without it, lasting happiness change requires the same sustained commitment"
+      ],
+      "answer": 3,
+      "explanation": "The analogy captures that people differ in their natural baseline and that sustained effort is needed to shift away from it in either domain, with both tending to drift back toward their set point when effort stops.",
+      "difficulty": "hard"
+    },
+    {
+      "prompt": "A friend plans to become happier by earning a promotion, moving to a bigger apartment, and finding a more attentive partner. Based on the chapter's core argument, what is the most precise problem with this strategy?",
+      "choices": [
+        "External circumstances like these account for only a small fraction of happiness variation, so they are unlikely to produce the lasting improvement she expects",
+        "These goals are worthwhile but she should pursue only one at a time to avoid spreading effort too thin",
+        "Ambition itself undermines happiness because it generates chronic dissatisfaction with the present",
+        "She is correct that these changes will help but she also needs to address her genetic set point through professional therapy"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's central point is that life circumstances explain only about 10 percent of happiness differences, so stacking up circumstantial gains is an inefficient and largely ineffective route to lasting well-being.",
+      "difficulty": "hard"
     }
   ]
 }
