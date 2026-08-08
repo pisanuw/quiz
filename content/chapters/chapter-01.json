@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "title": "Chapter 1",
+  "blurb": "Placeholder. Replace title, blurb, and questions once the chapter text is in.",
+  "publish": false,
+  "questions": [
+    {
+      "prompt": "PLACEHOLDER: replace with a real question.",
+      "choices": ["First option", "Second option", "Third option", "Fourth option"],
+      "answer": 0,
+      "explanation": "Shown after grading. Keep it to a sentence or two."
+    },
+    {
+      "prompt": "PLACEHOLDER: a second sample so the seeder has something to chew on.",
+      "choices": ["First option", "Second option", "Third option", "Fourth option"],
+      "answer": 3,
+      "explanation": "Explanations are optional. Leave the field out if you do not want one."
+    }
+  ]
+}

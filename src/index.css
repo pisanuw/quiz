@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  @apply bg-paper text-ink font-body antialiased;
+  background-image: radial-gradient(circle at 18% -10%, #F5F8F7 0%, transparent 55%);
+  background-attachment: fixed;
+}
+
+*:focus-visible {
+  outline: 2px solid #1F5D4C;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono text-[0.68rem] uppercase tracking-[0.18em] text-muted;
+  }
+  .panel {
+    @apply bg-raised border border-line rounded-sm;
+  }
+  .btn {
+    @apply font-display font-semibold text-sm px-4 py-2 rounded-sm border transition-colors;
+  }
+  .btn-primary {
+    @apply btn bg-evergreen text-raised border-evergreen hover:bg-ink hover:border-ink;
+  }
+  .btn-quiet {
+    @apply btn bg-transparent text-ink border-line hover:border-ink;
+  }
+  .btn:disabled { @apply opacity-40 cursor-not-allowed; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

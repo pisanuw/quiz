@@ -1,0 +1,79 @@
+import { supabase } from './supabase'
+
+export async function listQuizzes() {
+  const { data, error } = await supabase
+    .from('quizzes')
+    .select('id, slug, title, blurb')
+    .order('id')
+  if (error) throw error
+  return data
+}
+
+export async function getQuiz(id) {
+  const { data, error } = await supabase
+    .from('quizzes')
+    .select('id, slug, title, blurb')
+    .eq('id', id)
+    .single()
+  if (error) throw error
+  return data
+}
+
+export async function getQuestions(quizId) {
+  const { data, error } = await supabase
+    .from('questions')
+    .select('id, position, prompt, choices')
+    .eq('quiz_id', quizId)
+    .order('position')
+  if (error) throw error
+  return data
+}
+
+// answers: { [questionId]: chosenIndex }
+export async function submitAttempt(quizId, answers, durationMs) {
+  const { data, error } = await supabase.rpc('submit_attempt', {
+    p_quiz_id: quizId,
+    p_answers: answers,
+    p_duration_ms: durationMs ?? null
+  })
+  if (error) throw error
+  return data
+}
+
+export async function globalLeaderboard(limit = 100) {
+  const { data, error } = await supabase
+    .from('leaderboard_global')
+    .select('user_id, display_name, avatar_url, total_score, quizzes_completed, rank')
+    .order('rank')
+    .limit(limit)
+  if (error) throw error
+  return data
+}
+
+export async function quizLeaderboard(quizId, limit = 100) {
+  const { data, error } = await supabase
+    .from('leaderboard_quiz')
+    .select('user_id, display_name, avatar_url, best_score, total, rank')
+    .eq('quiz_id', quizId)
+    .order('rank')
+    .limit(limit)
+  if (error) throw error
+  return data
+}
+
+export async function myBestScores(userId) {
+  const { data, error } = await supabase
+    .from('leaderboard_quiz')
+    .select('quiz_id, best_score, total, rank')
+    .eq('user_id', userId)
+  if (error) throw error
+  return data
+}
+
+export async function updateDisplayName(userId, displayName) {
+  const { error } = await supabase
+    .from('profiles')
+    .update({ display_name: displayName })
+    .eq('id', userId)
+  if (error) throw error
+}
