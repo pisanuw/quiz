@@ -2,9 +2,9 @@
 
 ## What this is
 
-A public quiz site for The How of Happiness (Lyubomirsky). Ten chapters, one
-quiz each, about twenty multiple choice questions per quiz. Anyone can play.
-Google sign-in is required only to appear on the leaderboard.
+A quiz site for The How of Happiness (Lyubomirsky). Ten chapters, one quiz
+each, twenty multiple choice questions per quiz, 200 in total. The chapter
+list is public. Taking a quiz requires Google sign-in.
 
 ## Decisions made
 
@@ -12,23 +12,27 @@ Google sign-in is required only to appear on the leaderboard.
 | --- | --- |
 | Stack | React 18 + Vite, Tailwind, Supabase, Netlify |
 | Auth | Google OAuth via Supabase, no email or password path |
+| Access | Chapter catalog public, questions and grading require sign-in |
 | Leaderboard | Global (sum of best per chapter) plus per-chapter tabs |
 | Retakes | Unlimited, best score counts, ties broken by earliest achievement |
-| Anonymous play | Graded, shown, not stored |
 | Grading | Server side, Postgres `security definer` function |
 | Question source | JSON files in `content/chapters`, seeded by script |
+| Question mix | 20 per chapter: 5 easy, 10 medium, 5 hard |
+
+Anonymous play was in the original build and was removed in
+`20260808130000_require_signin`. There is no ungated path left in the app or
+the database.
 
 ## Open items
 
-- Questions are not written yet. Chapter files are placeholders.
-- Chapter titles in the database are placeholders until the content lands.
 - No rate limiting on `submit_attempt`. Add one if the site gets attention.
 - No dark mode.
 - Display names come from Google and are user editable, so they need
   moderation if this goes wide.
+- Question counts are locked at 20 per chapter now that scores are live.
+  Changing a count invalidates comparability of existing best scores.
 
 ## Content and copyright
 
-Questions must be original prose testing comprehension of the book's ideas.
-Do not paste passages from the book into question prompts, choices, or
-explanations.
+Questions are original prose testing comprehension of the book's ideas. Do not
+paste passages from the book into question prompts, choices, or explanations.

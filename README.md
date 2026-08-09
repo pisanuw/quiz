@@ -3,20 +3,23 @@
 Ten chapter quizzes with Google sign-in and a leaderboard. React + Vite on the
 front, Supabase (Postgres, Auth, RLS) on the back, Netlify for hosting.
 
-Open to everyone: anyone can take any published quiz and see their score.
-Only signed-in players get saved attempts and a place on the board.
+Sign-in is required to play. The chapter list is public, so anyone can see what
+is on offer, but reading questions and submitting an attempt both require an
+authenticated session.
 
 ## Rules baked in
 
+- Sign in with Google to take a quiz. There is no anonymous path.
 - Best score per chapter counts, unlimited retakes
 - Global board ranks the sum of your best scores, tie broken by who got there first
 - Per-chapter boards rank best score for that chapter
-- Anonymous attempts are graded but never stored
+- Every attempt is recorded, not just your best one
 
 ## Setup
 
 1. Create a Supabase project.
-2. Run the migration: `supabase/migrations/20260808120000_init.sql`
+2. Run the migrations in `supabase/migrations`, oldest first:
+   `20260808120000_init.sql` then `20260808130000_require_signin.sql`
    (SQL editor, or `supabase db push` if you use the CLI).
 3. Authentication > Providers > Google: enable it, paste the client ID and
    secret from a Google Cloud OAuth client. Add the Supabase callback URL
@@ -29,8 +32,8 @@ Only signed-in players get saved attempts and a place on the board.
 
 ## Writing questions
 
-Questions live in `content/chapters/chapter-NN.json`, one file per chapter.
-See `content/README.md` for the shape. Then:
+Questions live in `content/chapters/chapter-NN.json`, one file per chapter,
+twenty questions each. See `content/README.md` for the shape. Then:
 
 ```
 node scripts/seed.mjs --check   # validate, touch nothing
@@ -48,9 +51,11 @@ of devtools and post a perfect score. So:
 
 - `answer_keys` has RLS enabled and no policies at all, which means no client
   role can read it, ever
-- `submit_attempt()` is a `security definer` function: it grades the submission,
-  writes the attempt, and returns the results
+- `submit_attempt()` is a `security definer` function: it checks you are signed
+  in, grades the submission, writes the attempt, and returns the results
 - `attempts` has no insert policy, so scores can only be written by that function
+- `questions` is readable only by the `authenticated` role, and `anon` has no
+  execute grant on `submit_attempt()`
 
 A determined person can still retake a quiz until they have seen every answer.
 Given unlimited retakes and best-score-counts, that is by design.

@@ -9,6 +9,8 @@
   buttons were keyed by array index, so React reused the same DOM nodes across
   questions and the clicked button kept browser focus. The question block now
   remounts per question and focus moves to the new prompt.
+- README and BRIEFING updated to match the sign-in gate
+- Removed the unreachable anonymous branches from the results screen
 
 ## 0.1.0, 2026-08-08
 

@@ -1,11 +1,9 @@
 import { Link } from 'react-router-dom'
 import Blocks from '../components/Blocks'
-import { useAuth } from '../context/AuthContext'
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 
 export default function Results({ quiz, questions, answers, outcome, onRetake }) {
-  const { user, signIn } = useAuth()
   const byId = Object.fromEntries(outcome.results.map((r) => [r.question_id, r]))
   const pct = Math.round((outcome.score / outcome.total) * 100)
 
@@ -22,19 +20,9 @@ export default function Results({ quiz, questions, answers, outcome, onRetake })
         <Blocks filled={outcome.score} total={outcome.total} size="md" label={`${outcome.score} of ${outcome.total} correct`} />
       </div>
 
-      {outcome.saved ? (
-        <p className="mt-6 font-mono text-sm text-evergreen">
-          Saved. Your best score for this chapter is what counts on the board.
-        </p>
-      ) : (
-        <div className="mt-6 panel p-5">
-          <p className="font-display font-semibold">This score was not saved.</p>
-          <p className="text-muted mt-1">
-            Sign in with Google and take it again to put it on the leaderboard.
-          </p>
-          <button onClick={signIn} className="btn-primary mt-3">Sign in with Google</button>
-        </div>
-      )}
+      <p className="mt-6 font-mono text-sm text-evergreen">
+        Saved. Your best score for this chapter is what counts on the board.
+      </p>
 
       <div className="mt-6 flex flex-wrap gap-3">
         <button className="btn-primary" onClick={onRetake}>Take it again</button>
@@ -92,10 +80,6 @@ export default function Results({ quiz, questions, answers, outcome, onRetake })
           )
         })}
       </ol>
-
-      {!user ? (
-        <button onClick={signIn} className="btn-primary mt-10">Sign in with Google</button>
-      ) : null}
     </div>
   )
 }
