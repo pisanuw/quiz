@@ -18,6 +18,7 @@ export default function Quiz() {
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState(null)
   const startedAt = useRef(Date.now())
+  const promptRef = useRef(null)
 
   useEffect(() => {
     if (!user) return
@@ -29,6 +30,14 @@ export default function Quiz() {
       .catch((e) => { if (!cancelled) setError(e.message) })
     return () => { cancelled = true }
   }, [quizId, user])
+
+  // The question block remounts on every advance, so nothing keeps a stale
+  // focus ring. Put focus on the new prompt so keyboard and screen reader
+  // users are not dumped back at the top of the document.
+  useEffect(() => {
+    if (!questions || outcome) return
+    promptRef.current?.focus({ preventScroll: true })
+  }, [index, questions, outcome])
 
   const answered = useMemo(() => Object.keys(answers).length, [answers])
   const current = questions?.[index]
@@ -124,13 +133,19 @@ export default function Quiz() {
         ))}
       </div>
 
-      <div className="mt-8">
-        <p className="font-display font-semibold text-xl sm:text-2xl leading-snug">{current.prompt}</p>
+      <div className="mt-8" key={current.id}>
+        <h2
+          ref={promptRef}
+          tabIndex={-1}
+          className="font-display font-semibold text-xl sm:text-2xl leading-snug focus:outline-none"
+        >
+          {current.prompt}
+        </h2>
         <ul className="mt-5 grid gap-2">
           {current.choices.map((choice, i) => {
             const selected = answers[current.id] === i
             return (
-              <li key={i}>
+              <li key={`${current.id}-${i}`}>
                 <button
                   onClick={() => {
                     setAnswers((prev) => ({ ...prev, [current.id]: i }))
