@@ -3,7 +3,7 @@
 ## Unreleased
 
 - All 200 quiz questions written: 10 chapters, 20 each (5 easy, 10 medium, 5 hard)
-- Sign-in now required to take a quiz (migration 20260808130000_require_signin)
+- Sign-in now required to take a quiz (migration 20260808234321_require_signin)
 - Quiz runner gated behind Google sign-in; landing page still lists chapters
 - Fix: the focus ring from the previous question stayed on screen. Choice
   buttons were keyed by array index, so React reused the same DOM nodes across
@@ -18,6 +18,8 @@
 - `answer_keys` grant revoked from anon and authenticated, so the table is
   unreachable by client roles even if RLS were disabled
 - Migrations verified against a real Postgres 16 instance for the first time
+- Migration filenames renamed to match the versions recorded in the database,
+  and the init migration recorded in `schema_migrations` where it was missing
 
 ## 0.1.0, 2026-08-08
 

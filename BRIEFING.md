@@ -21,7 +21,7 @@ list is public. Taking a quiz requires Google sign-in.
 | Question mix | 20 per chapter: 5 easy, 10 medium, 5 hard |
 
 Anonymous play was in the original build and was removed in
-`20260808130000_require_signin`. There is no ungated path left in the app or
+`20260808234321_require_signin`. There is no ungated path left in the app or
 the database.
 
 ## Open items

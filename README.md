@@ -20,9 +20,10 @@ authenticated session.
 ## Setup
 
 1. Create a Supabase project.
-2. Run the migrations in `supabase/migrations`, oldest first:
-   `20260808120000_init.sql` then `20260808130000_require_signin.sql`
-   (SQL editor, or `supabase db push` if you use the CLI).
+2. Run every file in `supabase/migrations` in filename order.
+
+   Do not use `supabase db push` against the current database. See
+   "Shared database" below.
 3. Authentication > Providers > Google: enable it, paste the client ID and
    secret from a Google Cloud OAuth client. Add the Supabase callback URL
    (`https://YOURPROJECT.supabase.co/auth/v1/callback`) as an authorized
@@ -67,3 +68,25 @@ Given unlimited retakes and best-score-counts, that is by design.
 Netlify, build command `npm run build`, publish `dist`. Set
 `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` as build environment
 variables. `netlify.toml` already handles the SPA redirect.
+
+## Shared database
+
+This app does not have its own Supabase project. It lives in the project named
+`upvoteme` (ref `arktxlrlyceffyozdwhq`), alongside upvoteme itself, word-path,
+and a tutoring system. Consequences:
+
+- One migration history serves all of them. `supabase_migrations.schema_migrations`
+  contains rows like `word_path_leaderboard` that have no file in this repo, so
+  `supabase db push` from here will complain about remote migrations it cannot
+  find locally. Apply migrations through the SQL editor or the MCP connector
+  instead, then record the version by hand.
+- Filenames in this repo are kept equal to the `version` recorded in that table,
+  so the two histories agree. If you apply a migration by any route, make sure
+  the recorded version matches the filename.
+- `public` is shared, so a bare `drop view leaderboard` would hit somebody
+  else's table. Quiz-owned objects are: `profiles`, `quizzes`, `questions`,
+  `answer_keys`, `attempts`, `leaderboard_quiz`, `leaderboard_global`,
+  `submit_attempt()`, `handle_new_user()`. The base table named `leaderboard`
+  belongs to word-path, not to this app.
+
+Giving the quiz its own project would remove all three problems.
