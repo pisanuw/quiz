@@ -11,6 +11,13 @@
   remounts per question and focus moves to the new prompt.
 - README and BRIEFING updated to match the sign-in gate
 - Removed the unreachable anonymous branches from the results screen
+- Leaderboard shows attempt counts in parentheses next to each score, per
+  chapter and summed on the overall board. Retroactive: attempts were already
+  recorded, so counts cover every attempt since launch.
+- Profile page shows attempts per chapter and a session total
+- `answer_keys` grant revoked from anon and authenticated, so the table is
+  unreachable by client roles even if RLS were disabled
+- Migrations verified against a real Postgres 16 instance for the first time
 
 ## 0.1.0, 2026-08-08
 

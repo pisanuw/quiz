@@ -13,7 +13,9 @@ authenticated session.
 - Best score per chapter counts, unlimited retakes
 - Global board ranks the sum of your best scores, tie broken by who got there first
 - Per-chapter boards rank best score for that chapter
-- Every attempt is recorded, not just your best one
+- Every attempt is recorded, not just your best one. The leaderboard shows the
+  count in parentheses next to the score, so a high score reached on the first
+  try reads differently from one reached on the twentieth.
 
 ## Setup
 

@@ -24,6 +24,7 @@ export default function Profile() {
 
   const byQuiz = Object.fromEntries(best.map((b) => [b.quiz_id, b]))
   const total = best.reduce((sum, b) => sum + b.best_score, 0)
+  const totalAttempts = best.reduce((sum, b) => sum + (b.attempts ?? 0), 0)
   const possible = quizzes.length * 20
 
   async function save() {
@@ -45,7 +46,10 @@ export default function Profile() {
         <span className="font-mono">{total}</span>
         {possible ? <span className="font-mono text-2xl text-muted">/{possible}</span> : null}
       </h1>
-      <p className="text-muted mt-1">{best.length} of {quizzes.length} chapters played</p>
+      <p className="text-muted mt-1">
+        {best.length} of {quizzes.length} chapters played, {totalAttempts}{' '}
+        {totalAttempts === 1 ? 'attempt' : 'attempts'} in total
+      </p>
 
       <div className="panel p-5 mt-8">
         <label htmlFor="name" className="eyebrow block">Name on the leaderboard</label>
@@ -78,6 +82,7 @@ export default function Profile() {
                   {b ? (
                     <>
                       {b.best_score}<span className="text-muted">/{b.total}</span>
+                      <span className="text-muted"> ({b.attempts})</span>
                       <span className="text-muted"> &middot; rank {b.rank}</span>
                     </>
                   ) : (

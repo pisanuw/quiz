@@ -25,6 +25,9 @@ export default function Leaderboard() {
     <div className="mx-auto max-w-3xl px-5 pt-10 pb-24">
       <p className="eyebrow">Best score per chapter, added up</p>
       <h1 className="font-display font-extrabold text-4xl tracking-tight mt-2">Leaderboard</h1>
+      <p className="font-mono text-[0.7rem] text-muted mt-2">
+        Score, then attempts in parentheses. Retakes are unlimited and only your best counts.
+      </p>
 
       <div className="mt-6 flex flex-wrap gap-2">
         <Tab active={tab === 'overall'} onClick={() => setTab('overall')}>Overall</Tab>
@@ -49,6 +52,11 @@ export default function Leaderboard() {
             const mine = user && r.user_id === user.id
             const score = tab === 'overall' ? r.total_score : r.best_score
             const outOf = tab === 'overall' ? null : r.total
+            const tries = r.attempts ?? 0
+            const triesLabel =
+              tab === 'overall'
+                ? `${tries} ${tries === 1 ? 'attempt' : 'attempts'} across all chapters`
+                : `${tries} ${tries === 1 ? 'attempt' : 'attempts'} at this chapter`
             return (
               <li
                 key={r.user_id}
@@ -66,9 +74,10 @@ export default function Leaderboard() {
                     {r.quizzes_completed} ch
                   </span>
                 ) : null}
-                <span className="ml-auto font-mono tabular-nums">
+                <span className="ml-auto font-mono tabular-nums whitespace-nowrap">
                   {score}
                   {outOf ? <span className="text-muted">/{outOf}</span> : null}
+                  <span className="text-muted" title={triesLabel}> ({tries})</span>
                 </span>
               </li>
             )

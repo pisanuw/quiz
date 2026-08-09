@@ -15,6 +15,7 @@ list is public. Taking a quiz requires Google sign-in.
 | Access | Chapter catalog public, questions and grading require sign-in |
 | Leaderboard | Global (sum of best per chapter) plus per-chapter tabs |
 | Retakes | Unlimited, best score counts, ties broken by earliest achievement |
+| Attempt counts | Every attempt recorded and shown in parentheses on the boards |
 | Grading | Server side, Postgres `security definer` function |
 | Question source | JSON files in `content/chapters`, seeded by script |
 | Question mix | 20 per chapter: 5 easy, 10 medium, 5 hard |
