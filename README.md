@@ -10,12 +10,32 @@ authenticated session.
 ## Rules baked in
 
 - Sign in with Google to take a quiz. There is no anonymous path.
-- Best score per chapter counts, unlimited retakes
-- Global board ranks the sum of your best scores, tie broken by who got there first
-- Per-chapter boards rank best score for that chapter
-- Every attempt is recorded, not just your best one. The leaderboard shows the
-  count in parentheses next to the score, so a high score reached on the first
-  try reads differently from one reached on the twentieth.
+- Retakes are unlimited. Your chapter score is the average of every attempt,
+  rounded to one decimal, not your best.
+- Per-chapter boards rank that average.
+- Global board ranks the average of your chapter averages.
+- Attempt counts are shown in parentheses next to each score.
+
+### What averaging means
+
+Averaging is order-independent: 10, 15, 20 scores the same 15.0 as 20, 15, 10.
+
+There is no way to grind to a perfect score. After a first attempt of `s` and
+`k` attempts total, the highest average you can reach is `(s + 20(k-1)) / k`.
+Open with 15 and you are capped at 18.3 after three attempts and 19.5 after ten.
+You approach 20 asymptotically and never arrive. Only a perfect first attempt
+gives a perfect score, and one bad attempt is permanent. This is deliberate:
+it prices in retakes rather than rewarding them.
+
+A consequence worth knowing: a player is always better off not taking a quiz
+again than taking it and scoring below their current average.
+
+### A naming trap
+
+`leaderboard_quiz.best_score` does not hold a best score. It holds
+`round(avg(score), 1)`. The column name was kept when scoring changed so the
+client would not have to change with it. Same for `leaderboard_global.total_score`,
+which is an average, not a total.
 
 ## Setup
 

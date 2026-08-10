@@ -14,7 +14,9 @@ list is public. Taking a quiz requires Google sign-in.
 | Auth | Google OAuth via Supabase, no email or password path |
 | Access | Chapter catalog public, questions and grading require sign-in |
 | Leaderboard | Global (sum of best per chapter) plus per-chapter tabs |
-| Retakes | Unlimited, best score counts, ties broken by earliest achievement |
+| Retakes | Unlimited, every attempt counts toward the average |
+| Chapter score | Mean of all attempts, one decimal. Not the best attempt |
+| Global score | Mean of chapter means, which under-rewards breadth. Under review |
 | Attempt counts | Every attempt recorded and shown in parentheses on the boards |
 | Grading | Server side, Postgres `security definer` function |
 | Question source | JSON files in `content/chapters`, seeded by script |
