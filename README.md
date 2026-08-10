@@ -39,9 +39,6 @@ again than taking it and scoring below their current average.
 its denominator, counted from the questions in published chapters rather than
 assumed to be 200.
 
-A deprecated `best_score` alias still exists on `leaderboard_quiz`, duplicating
-`avg_score`. It exists only so the previously deployed client survived the
-rename, and is dropped by the pending migration in `supabase/migrations`.
 
 ## Setup
 

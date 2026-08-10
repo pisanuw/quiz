@@ -28,8 +28,8 @@
   Averaging across chapters meant a player who did one chapter at 18.0 outranked
   one who did ten at 17.0, so finishing the book cost you rank.
 - `leaderboard_quiz.best_score` renamed to `avg_score`, since it has held an
-  average since the scoring change. A duplicate `best_score` is kept for one
-  deploy cycle so the live client does not break, then dropped.
+  average since the scoring change. A duplicate `best_score` was kept for one
+  deploy cycle so the live client did not break, and has now been dropped.
 - Ties on both boards break on fewest total attempts
 - `max_score` added to the global view, counted from published questions
 
