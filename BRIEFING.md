@@ -16,7 +16,7 @@ list is public. Taking a quiz requires Google sign-in.
 | Leaderboard | Global (sum of best per chapter) plus per-chapter tabs |
 | Retakes | Unlimited, every attempt counts toward the average |
 | Chapter score | Mean of all attempts, one decimal. Not the best attempt |
-| Global score | Mean of chapter means, which under-rewards breadth. Under review |
+| Global score | Sum of chapter means, out of 200. Ties break on fewest attempts |
 | Attempt counts | Every attempt recorded and shown in parentheses on the boards |
 | Grading | Server side, Postgres `security definer` function |
 | Question source | JSON files in `content/chapters`, seeded by script |

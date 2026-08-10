@@ -21,7 +21,7 @@ export default function Results({ quiz, questions, answers, outcome, onRetake })
       </div>
 
       <p className="mt-6 font-mono text-sm text-evergreen">
-        Saved. Your best score for this chapter is what counts on the board.
+        Saved. Your chapter score is the average of all your attempts, this one included.
       </p>
 
       <div className="mt-6 flex flex-wrap gap-3">

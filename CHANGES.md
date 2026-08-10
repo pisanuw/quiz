@@ -24,6 +24,14 @@
   migration dropped it and broke every board request
 - Captured the uncommitted `leaderboard_average` migration into the repo,
   reconstructed from the live view definitions
+- Global board now sums chapter averages out of 200 instead of averaging them.
+  Averaging across chapters meant a player who did one chapter at 18.0 outranked
+  one who did ten at 17.0, so finishing the book cost you rank.
+- `leaderboard_quiz.best_score` renamed to `avg_score`, since it has held an
+  average since the scoring change. A duplicate `best_score` is kept for one
+  deploy cycle so the live client does not break, then dropped.
+- Ties on both boards break on fewest total attempts
+- `max_score` added to the global view, counted from published questions
 
 ## 0.1.0, 2026-08-08
 

@@ -13,8 +13,10 @@ authenticated session.
 - Retakes are unlimited. Your chapter score is the average of every attempt,
   rounded to one decimal, not your best.
 - Per-chapter boards rank that average.
-- Global board ranks the average of your chapter averages.
-- Attempt counts are shown in parentheses next to each score.
+- Global board sums your chapter averages, out of 200. Every chapter you play
+  can only add to it, so breadth pays. Chapters you have not played count zero.
+- Ties break on fewest total attempts, then earliest.
+- Attempt counts are shown in parentheses next to each score. Lower is better.
 
 ### What averaging means
 
@@ -30,12 +32,16 @@ it prices in retakes rather than rewarding them.
 A consequence worth knowing: a player is always better off not taking a quiz
 again than taking it and scoring below their current average.
 
-### A naming trap
+### Column names
 
-`leaderboard_quiz.best_score` does not hold a best score. It holds
-`round(avg(score), 1)`. The column name was kept when scoring changed so the
-client would not have to change with it. Same for `leaderboard_global.total_score`,
-which is an average, not a total.
+`leaderboard_quiz.avg_score` is the mean of a player's attempts at that chapter.
+`leaderboard_global.total_score` is the sum of those means, and `max_score` is
+its denominator, counted from the questions in published chapters rather than
+assumed to be 200.
+
+A deprecated `best_score` alias still exists on `leaderboard_quiz`, duplicating
+`avg_score`. It exists only so the previously deployed client survived the
+rename, and is dropped by the pending migration in `supabase/migrations`.
 
 ## Setup
 

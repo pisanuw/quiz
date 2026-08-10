@@ -23,10 +23,11 @@ export default function Leaderboard() {
 
   return (
     <div className="mx-auto max-w-3xl px-5 pt-10 pb-24">
-      <p className="eyebrow">Best score per chapter, added up</p>
+      <p className="eyebrow">Average per chapter, added up</p>
       <h1 className="font-display font-extrabold text-4xl tracking-tight mt-2">Leaderboard</h1>
       <p className="font-mono text-[0.7rem] text-muted mt-2">
-        Score, then attempts in parentheses. Retakes are unlimited and only your best counts.
+        Your chapter score is the average of every attempt, so a weak retake pulls it down.
+        Attempts in parentheses. The overall board adds your chapter averages together.
       </p>
 
       <div className="mt-6 flex flex-wrap gap-2">
@@ -50,8 +51,8 @@ export default function Leaderboard() {
         <ol className="mt-8 border-t border-line">
           {rows.map((r) => {
             const mine = user && r.user_id === user.id
-            const score = tab === 'overall' ? r.total_score : r.best_score
-            const outOf = tab === 'overall' ? null : r.total
+            const score = tab === 'overall' ? r.total_score : r.avg_score
+            const outOf = tab === 'overall' ? r.max_score : r.total
             const tries = r.attempts ?? 0
             const triesLabel =
               tab === 'overall'

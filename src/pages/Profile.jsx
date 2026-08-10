@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, Navigate } from 'react-router-dom'
-import { listQuizzes, myBestScores, updateDisplayName } from '../lib/api'
+import { listQuizzes, myChapterScores, updateDisplayName } from '../lib/api'
 import { useAuth } from '../context/AuthContext'
 import Blocks from '../components/Blocks'
 
@@ -16,14 +16,14 @@ export default function Profile() {
   useEffect(() => {
     if (!user) return
     listQuizzes().then(setQuizzes).catch(() => {})
-    myBestScores(user.id).then(setBest).catch(() => {})
+    myChapterScores(user.id).then(setBest).catch(() => {})
   }, [user])
 
   if (loading) return <p className="mx-auto max-w-reading px-5 pt-10 font-mono text-sm text-muted">Loading</p>
   if (!user) return <Navigate to="/" replace />
 
   const byQuiz = Object.fromEntries(best.map((b) => [b.quiz_id, b]))
-  const total = best.reduce((sum, b) => sum + b.best_score, 0)
+  const total = Math.round(best.reduce((sum, b) => sum + Number(b.avg_score), 0) * 10) / 10
   const totalAttempts = best.reduce((sum, b) => sum + (b.attempts ?? 0), 0)
   const possible = quizzes.length * 20
 
@@ -81,7 +81,7 @@ export default function Profile() {
                 <span className="font-mono text-xs whitespace-nowrap">
                   {b ? (
                     <>
-                      {b.best_score}<span className="text-muted">/{b.total}</span>
+                      {b.avg_score}<span className="text-muted">/{b.total}</span>
                       <span className="text-muted"> ({b.attempts})</span>
                       <span className="text-muted"> &middot; rank {b.rank}</span>
                     </>
@@ -91,7 +91,7 @@ export default function Profile() {
                 </span>
               </div>
               <div className="mt-3">
-                <Blocks filled={b?.best_score ?? 0} total={b?.total ?? 20} />
+                <Blocks filled={Math.round(b?.avg_score ?? 0)} total={b?.total ?? 20} />
               </div>
             </li>
           )

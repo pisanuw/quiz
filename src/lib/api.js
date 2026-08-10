@@ -43,7 +43,7 @@ export async function submitAttempt(quizId, answers, durationMs) {
 export async function globalLeaderboard(limit = 100) {
   const { data, error } = await supabase
     .from('leaderboard_global')
-    .select('user_id, display_name, avatar_url, total_score, quizzes_completed, attempts, rank')
+    .select('user_id, display_name, avatar_url, total_score, quizzes_completed, attempts, max_score, rank')
     .order('rank')
     .limit(limit)
   if (error) throw error
@@ -53,7 +53,7 @@ export async function globalLeaderboard(limit = 100) {
 export async function quizLeaderboard(quizId, limit = 100) {
   const { data, error } = await supabase
     .from('leaderboard_quiz')
-    .select('user_id, display_name, avatar_url, best_score, total, attempts, rank')
+    .select('user_id, display_name, avatar_url, avg_score, total, attempts, rank')
     .eq('quiz_id', quizId)
     .order('rank')
     .limit(limit)
@@ -61,10 +61,10 @@ export async function quizLeaderboard(quizId, limit = 100) {
   return data
 }
 
-export async function myBestScores(userId) {
+export async function myChapterScores(userId) {
   const { data, error } = await supabase
     .from('leaderboard_quiz')
-    .select('quiz_id, best_score, total, attempts, rank')
+    .select('quiz_id, avg_score, total, attempts, rank')
     .eq('user_id', userId)
   if (error) throw error
   return data

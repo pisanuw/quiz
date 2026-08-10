@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { listQuizzes, myBestScores } from '../lib/api'
+import { listQuizzes, myChapterScores } from '../lib/api'
 import { useAuth } from '../context/AuthContext'
 import Blocks from '../components/Blocks'
 
@@ -16,7 +16,7 @@ export default function Home() {
 
   useEffect(() => {
     if (!user) { setBest({}); return }
-    myBestScores(user.id)
+    myChapterScores(user.id)
       .then((rows) => setBest(Object.fromEntries(rows.map((r) => [r.quiz_id, r]))))
       .catch(() => {})
   }, [user])
@@ -51,7 +51,7 @@ export default function Home() {
 
         <p className="mt-8 text-lg text-muted max-w-reading">
           Work through Sonja Lyubomirsky&rsquo;s book a chapter at a time. Twenty questions each,
-          graded instantly. Sign in with Google to take a quiz and put your best scores on the
+          graded instantly. Sign in with Google to take a quiz and put your scores on the
           board.
         </p>
       </section>
@@ -98,7 +98,7 @@ export default function Home() {
                       </span>
                       {b ? (
                         <span className="font-mono text-[0.7rem] text-evergreen">
-                          best {b.best_score}/{b.total} &middot; rank {b.rank}
+                          avg {b.avg_score}/{b.total} &middot; {b.attempts}x &middot; rank {b.rank}
                         </span>
                       ) : (
                         <span className="font-mono text-[0.7rem] text-muted">not played</span>
@@ -107,7 +107,7 @@ export default function Home() {
                     <h3 className="font-display font-bold text-xl leading-tight mt-1">{q.title}</h3>
                     {q.blurb ? <p className="text-muted mt-1 leading-snug">{q.blurb}</p> : null}
                     <div className="mt-4">
-                      <Blocks filled={b?.best_score ?? 0} total={b?.total ?? 20} label={b ? `best ${b.best_score} of ${b.total}` : 'not played yet'} />
+                      <Blocks filled={Math.round(b?.avg_score ?? 0)} total={b?.total ?? 20} label={b ? `averaging ${b.avg_score} of ${b.total}` : 'not played yet'} />
                     </div>
                   </Link>
                 </li>

@@ -1,0 +1,27 @@
+-- Drop the backward compatibility alias.
+--
+-- 20260810031321_global_board_sum_and_avg_score_rename kept best_score as a
+-- duplicate of avg_score so the deployed client survived the window between
+-- the migration landing and Netlify publishing the bundle that asks for
+-- avg_score. Once that bundle is live the alias is dead weight, and leaving it
+-- recreates exactly the naming trap the rename was meant to remove.
+--
+-- Apply only after confirming the deployed site requests avg_score.
+
+create or replace view public.leaderboard_quiz as
+select
+  a.quiz_id,
+  a.user_id,
+  p.display_name,
+  p.avatar_url,
+  round(avg(a.score), 1) as avg_score,
+  max(a.total)           as total,
+  count(*)::integer      as attempts,
+  max(a.created_at)      as achieved_at,
+  rank() over (
+    partition by a.quiz_id
+    order by avg(a.score) desc, count(*) asc, max(a.created_at) asc
+  ) as rank
+from public.attempts a
+join public.profiles p on p.id = a.user_id
+group by a.quiz_id, a.user_id, p.display_name, p.avatar_url;
