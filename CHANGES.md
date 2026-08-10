@@ -20,6 +20,10 @@
 - Migrations verified against a real Postgres 16 instance for the first time
 - Migration filenames renamed to match the versions recorded in the database,
   and the init migration recorded in `schema_migrations` where it was missing
+- Restored the attempts column to `leaderboard_global` after an uncommitted
+  migration dropped it and broke every board request
+- Captured the uncommitted `leaderboard_average` migration into the repo,
+  reconstructed from the live view definitions
 
 ## 0.1.0, 2026-08-08
 
