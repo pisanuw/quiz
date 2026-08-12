@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { globalLeaderboard, listQuizzes, quizLeaderboard } from '../lib/api'
 import { useAuth } from '../context/AuthContext'
+import Avatar from '../components/Avatar'
 
 export default function Leaderboard() {
   const { user } = useAuth()
@@ -64,11 +65,7 @@ export default function Leaderboard() {
                 className={`flex items-center gap-4 py-3 border-b border-line ${mine ? 'bg-marigold/10 -mx-3 px-3' : ''}`}
               >
                 <span className="font-mono text-sm text-muted w-8 tabular-nums">{r.rank}</span>
-                {r.avatar_url ? (
-                  <img src={r.avatar_url} alt="" className="w-7 h-7 rounded-full border border-line" />
-                ) : (
-                  <span className="w-7 h-7 rounded-full border border-line bg-paper" />
-                )}
+                <Avatar name={r.display_name} src={r.avatar_url} />
                 <span className="font-display font-semibold truncate">{r.display_name}</span>
                 {tab === 'overall' ? (
                   <span className="font-mono text-[0.68rem] text-muted whitespace-nowrap">

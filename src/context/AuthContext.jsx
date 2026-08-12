@@ -25,7 +25,7 @@ export function AuthProvider({ children }) {
     let cancelled = false
     supabase
       .from('profiles')
-      .select('id, display_name, avatar_url')
+      .select('id, display_name, avatar_url, show_avatar')
       .eq('id', user.id)
       .maybeSingle()
       .then(({ data }) => { if (!cancelled) setProfile(data) })

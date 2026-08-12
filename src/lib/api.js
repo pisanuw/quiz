@@ -77,3 +77,13 @@ export async function updateDisplayName(userId, displayName) {
     .eq('id', userId)
   if (error) throw error
 }
+
+// The board only receives a photo URL for players who turned it on, so this
+// flag is the whole mechanism, not a client side hint.
+export async function updateShowAvatar(userId, showAvatar) {
+  const { error } = await supabase
+    .from('profiles')
+    .update({ show_avatar: showAvatar })
+    .eq('id', userId)
+  if (error) throw error
+}

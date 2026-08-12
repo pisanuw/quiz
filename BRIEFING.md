@@ -18,6 +18,7 @@ list is public. Taking a quiz requires Google sign-in.
 | Chapter score | Mean of all attempts, one decimal. Not the best attempt |
 | Global score | Sum of chapter means, out of 200. Ties break on fewest attempts |
 | Attempt counts | Every attempt recorded and shown in parentheses on the boards |
+| Identity | Initials and no photo by default, both opt in, enforced in SQL |
 | Grading | Server side, Postgres `security definer` function |
 | Question source | JSON files in `content/chapters`, seeded by script |
 | Question mix | 20 per chapter: 5 easy, 10 medium, 5 hard |
@@ -30,8 +31,8 @@ the database.
 
 - No rate limiting on `submit_attempt`. Add one if the site gets attention.
 - No dark mode.
-- Display names come from Google and are user editable, so they need
-  moderation if this goes wide.
+- Display names are user editable free text, so they need moderation if this
+  goes wide. Initials are the default, which limits the blast radius.
 - Question counts are locked at 20 per chapter now that scores are live.
   Changing a count invalidates comparability of existing best scores.
 

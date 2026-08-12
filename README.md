@@ -18,6 +18,20 @@ authenticated session.
 - Ties break on fewest total attempts, then earliest.
 - Attempt counts are shown in parentheses next to each score. Lower is better.
 
+### Identity on the board
+
+Players appear as their initials with no photo. Both defaults are deliberate:
+signing in with Google should not publish your full name and face to a public
+page. From the profile page a player can set any display name they like and
+turn their Google picture on.
+
+This is enforced in the database, not the interface. `leaderboard_quiz` returns
+`avatar_url` only when the player set `show_avatar`, and `profiles` is readable
+only by its owner, so a photo that is switched off is never sent to anyone. The
+leaderboard views bypass that policy because they are owned by the table owner.
+Players hold column level update rights on `display_name` and `show_avatar`
+only, so nobody can point `avatar_url` at an arbitrary image.
+
 ### What averaging means
 
 Averaging is order-independent: 10, 15, 20 scores the same 15.0 as 20, 15, 10.

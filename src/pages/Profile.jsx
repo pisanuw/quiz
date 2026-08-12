@@ -1,17 +1,23 @@
 import { useEffect, useState } from 'react'
 import { Link, Navigate } from 'react-router-dom'
-import { listQuizzes, myChapterScores, updateDisplayName } from '../lib/api'
+import { listQuizzes, myChapterScores, updateDisplayName, updateShowAvatar } from '../lib/api'
 import { useAuth } from '../context/AuthContext'
 import Blocks from '../components/Blocks'
+import Avatar from '../components/Avatar'
 
 export default function Profile() {
   const { user, profile, setProfile, loading } = useAuth()
   const [quizzes, setQuizzes] = useState([])
   const [best, setBest] = useState([])
   const [name, setName] = useState('')
+  const [showAvatar, setShowAvatar] = useState(false)
   const [status, setStatus] = useState(null)
 
-  useEffect(() => { if (profile) setName(profile.display_name) }, [profile])
+  useEffect(() => {
+    if (!profile) return
+    setName(profile.display_name)
+    setShowAvatar(Boolean(profile.show_avatar))
+  }, [profile])
 
   useEffect(() => {
     if (!user) return
@@ -27,7 +33,7 @@ export default function Profile() {
   const totalAttempts = best.reduce((sum, b) => sum + (b.attempts ?? 0), 0)
   const possible = quizzes.length * 20
 
-  async function save() {
+  async function saveName() {
     const trimmed = name.trim().slice(0, 40)
     if (!trimmed) { setStatus('Name cannot be empty.'); return }
     try {
@@ -35,6 +41,19 @@ export default function Profile() {
       setProfile((p) => ({ ...p, display_name: trimmed }))
       setStatus('Name updated.')
     } catch (e) {
+      setStatus(e.message)
+    }
+  }
+
+  async function togglePhoto(next) {
+    setShowAvatar(next)
+    setStatus(null)
+    try {
+      await updateShowAvatar(user.id, next)
+      setProfile((p) => ({ ...p, show_avatar: next }))
+      setStatus(next ? 'Your picture is now on the board.' : 'Your picture is hidden.')
+    } catch (e) {
+      setShowAvatar(!next)
       setStatus(e.message)
     }
   }
@@ -52,7 +71,17 @@ export default function Profile() {
       </p>
 
       <div className="panel p-5 mt-8">
-        <label htmlFor="name" className="eyebrow block">Name on the leaderboard</label>
+        <h2 className="eyebrow">How you appear on the leaderboard</h2>
+
+        <div className="flex items-center gap-4 mt-4">
+          <Avatar name={name || profile?.display_name} src={showAvatar ? profile?.avatar_url : null} size="lg" />
+          <div className="min-w-0">
+            <p className="font-display font-semibold text-lg truncate">{name || profile?.display_name}</p>
+            <p className="font-mono text-[0.68rem] text-muted">This is what everybody else sees</p>
+          </div>
+        </div>
+
+        <label htmlFor="name" className="eyebrow block mt-6">Display name</label>
         <div className="flex gap-2 mt-2">
           <input
             id="name"
@@ -61,11 +90,31 @@ export default function Profile() {
             onChange={(e) => { setName(e.target.value); setStatus(null) }}
             className="flex-1 bg-paper border border-line rounded-sm px-3 py-2 font-body"
           />
-          <button className="btn-primary" onClick={save} disabled={name.trim() === profile?.display_name}>
+          <button className="btn-primary" onClick={saveName} disabled={name.trim() === profile?.display_name}>
             Save
           </button>
         </div>
-        {status ? <p className="font-mono text-xs text-muted mt-2">{status}</p> : null}
+        <p className="font-mono text-[0.65rem] text-muted mt-2">
+          Defaults to your initials. Your full name is never shown unless you type it here.
+        </p>
+
+        <div className="mt-6 pt-5 border-t border-line flex items-start gap-3">
+          <input
+            id="photo"
+            type="checkbox"
+            checked={showAvatar}
+            onChange={(e) => togglePhoto(e.target.checked)}
+            className="mt-1 w-4 h-4 accent-evergreen"
+          />
+          <label htmlFor="photo" className="leading-snug">
+            Show my Google profile picture
+            <span className="block font-mono text-[0.65rem] text-muted mt-0.5">
+              Off by default. While it is off, your picture is not sent to anyone viewing the board.
+            </span>
+          </label>
+        </div>
+
+        {status ? <p className="font-mono text-xs text-muted mt-3">{status}</p> : null}
       </div>
 
       <ul className="mt-8 grid gap-3">

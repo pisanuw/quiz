@@ -32,6 +32,15 @@
   deploy cycle so the live client did not break, and has now been dropped.
 - Ties on both boards break on fewest total attempts
 - `max_score` added to the global view, counted from published questions
+- Leaderboard identity is now initials with no photo by default. Players can
+  set any display name and opt their Google picture in from the profile page.
+- Fixed: `profiles` was world readable, so anyone could harvest the full name
+  and photo URL of every player straight off the table, including those who had
+  opted out. Reads are now restricted to the owner; boards are served by the
+  views.
+- Players hold update rights on `display_name` and `show_avatar` only
+- Nav: removed the You link. The avatar opens a menu holding the profile link
+  and sign out. Sign in shows only when signed out.
 
 ## 0.1.0, 2026-08-08
 
