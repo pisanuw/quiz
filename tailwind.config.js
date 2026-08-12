@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,jsx}'],
+  // Wraps every hover: utility in @media (hover: hover). Without this, a tap on
+  // a touch screen leaves the phantom hover latched to whatever sits under the
+  // last tap point, so the next question renders a border on the option in the
+  // same slot. Looks exactly like a stale selection.
+  future: { hoverOnlyWhenSupported: true },
   theme: {
     extend: {
       colors: {

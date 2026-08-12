@@ -147,7 +147,10 @@ export default function Quiz() {
             return (
               <li key={`${current.id}-${i}`}>
                 <button
-                  onClick={() => {
+                  onClick={(e) => {
+                    // Drop focus from the tapped button before the question
+                    // changes, so no ring can survive into the next question.
+                    e.currentTarget.blur()
                     setAnswers((prev) => ({ ...prev, [current.id]: i }))
                     if (index < questions.length - 1) setTimeout(() => setIndex(index + 1), 160)
                   }}
