@@ -11,7 +11,13 @@
   byte for byte. Client reads change from `.from(view)` to `.rpc(fn)`. Shipped
   as two migrations: phase one adds the functions alongside the views
   (20260909130713), phase two drops the views once the rpc client is live
-  (20260909130714), so the board never goes out from under the deployed client.
+  (20260909131044), so the board never goes out from under the deployed client.
+
+- Hardened two functions the advisor flagged once the boards became functions:
+  `initials_from` now pins an empty `search_path` (it uses only built ins), and
+  `handle_new_user`, a trigger function that never needs a direct grant, has its
+  execute revoked from anon and authenticated so it is no longer callable over
+  the rpc API (migration 20260909131506).
 
 - Fix, properly this time: the box appearing on the previously chosen option
   was sticky `:hover` on touch, not focus. Tap hover latches to whatever sits
