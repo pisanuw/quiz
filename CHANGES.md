@@ -19,6 +19,11 @@
   execute revoked from anon and authenticated so it is no longer callable over
   the rpc API (migration 20260909131506).
 
+- The three migrations above were applied to the shared `upvoteme` project
+  through the connector, which assigns its own version numbers. The view drop
+  was renamed from a guessed `20260909130714` to the recorded `20260909131044`
+  so the files match the database, the same reconciliation done before.
+
 - Fix, properly this time: the box appearing on the previously chosen option
   was sticky `:hover` on touch, not focus. Tap hover latches to whatever sits
   under the last tap point and persists, so the next question shows a border on

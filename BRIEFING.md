@@ -20,6 +20,7 @@ list is public. Taking a quiz requires Google sign-in.
 | Attempt counts | Every attempt recorded and shown in parentheses on the boards |
 | Identity | Initials and no photo by default, both opt in, enforced in SQL |
 | Grading | Server side, Postgres `security definer` function |
+| Board reads | `leaderboard_global()` and `leaderboard_quiz()` `security definer` functions, called via rpc. They read past RLS so the boards aggregate every player while `attempts` and `profiles` stay owner locked. Were views until 2026-09-09 |
 | Question source | JSON files in `content/chapters`, seeded by script |
 | Question mix | 20 per chapter: 5 easy, 10 medium, 5 hard |
 
