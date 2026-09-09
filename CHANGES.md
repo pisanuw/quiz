@@ -2,6 +2,17 @@
 
 ## Unreleased
 
+- Leaderboards moved from views to security definer functions to clear
+  Supabase's Security Definer View advisor. The boards must read past row level
+  security (attempts and profiles are locked to their owner), so the views were
+  owned by postgres with `security_invoker` off, which is exactly what the
+  advisor flags. Functions are the sanctioned way to do that here, matching
+  `submit_attempt()`, and they do not trip the advisor. Same board output,
+  byte for byte. Client reads change from `.from(view)` to `.rpc(fn)`. Shipped
+  as two migrations: phase one adds the functions alongside the views
+  (20260909130713), phase two drops the views once the rpc client is live
+  (20260909130714), so the board never goes out from under the deployed client.
+
 - Fix, properly this time: the box appearing on the previously chosen option
   was sticky `:hover` on touch, not focus. Tap hover latches to whatever sits
   under the last tap point and persists, so the next question shows a border on

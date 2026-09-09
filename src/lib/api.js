@@ -40,9 +40,13 @@ export async function submitAttempt(quizId, answers, durationMs) {
   return data
 }
 
+// The boards read through security definer functions, not views, so they can
+// aggregate across every player while attempts and profiles stay row locked.
+// PostgREST still applies select, eq, order and limit to a set returning
+// function, so these read the same as the old view queries.
 export async function globalLeaderboard(limit = 100) {
   const { data, error } = await supabase
-    .from('leaderboard_global')
+    .rpc('leaderboard_global')
     .select('user_id, display_name, avatar_url, total_score, quizzes_completed, attempts, max_score, rank')
     .order('rank')
     .limit(limit)
@@ -52,7 +56,7 @@ export async function globalLeaderboard(limit = 100) {
 
 export async function quizLeaderboard(quizId, limit = 100) {
   const { data, error } = await supabase
-    .from('leaderboard_quiz')
+    .rpc('leaderboard_quiz')
     .select('user_id, display_name, avatar_url, avg_score, total, attempts, rank')
     .eq('quiz_id', quizId)
     .order('rank')
@@ -63,7 +67,7 @@ export async function quizLeaderboard(quizId, limit = 100) {
 
 export async function myChapterScores(userId) {
   const { data, error } = await supabase
-    .from('leaderboard_quiz')
+    .rpc('leaderboard_quiz')
     .select('quiz_id, avg_score, total, attempts, rank')
     .eq('user_id', userId)
   if (error) throw error
